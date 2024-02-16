@@ -1,0 +1,106 @@
+/* Estilos para el navbar */
+
+body{
+    background-color:rgb(231, 231, 231);
+}
+
+
+header {
+    background-color: rgb(231, 231, 231);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    margin-top: auto; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    position: sticky;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    background-color: #057f19;
+}
+
+
+.slider {
+    width: 120%;
+    height: 100%;
+}
+
+.slide {
+    width: 90%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.content {
+    text-align: center;
+}
+.bienvenida{
+    width: 50%;
+}
+.video{
+    width: 50%;
+}
+.slide h2, .slide p {
+    margin: 0;
+    color: #fff;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes img {
+    width: 30px; 
+    margin: 0 5px; 
+}
+
+.pie {
+    width: 100%; 
+    position: relative;
+    overflow: hidden; 
+}
+
+.pieCurva {
+    width: 100%; 
+    position: relative;
+}
+
+.pieLogo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+}
+.two{
+    display: flex;
+    margin-top: 20px;
+}
