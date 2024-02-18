@@ -1,62 +1,96 @@
-/* Estilos para el navbar */
 
-body{
-    background-color:rgb(231, 231, 231);
+@font-face {
+    font-family: 'D-DIN';
+    src: url('../fuente/D-DINCondesend-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
+h1, p {
+    font-family: 'D-DIN', 'Roboto', 'Montserrat', 'Lato', 'Open Sans', sans-serif;
+}
 
+body {
+    background-color: rgb(245, 243, 243);
+    margin-left: 50px;
+}
+.cabezote img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
 header {
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(245, 243, 243);
     color: #fff;
-    padding: 20px 0;
     text-align: center;
 }
-
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 nav {
-    margin-top: auto; 
+    width: 100%;
 }
 
-nav ul {
+ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
-nav ul li {
-    display: inline;
-    margin-left: 20px;
+li {
+    display: inline-block;
+    margin: 0 5px; 
 }
 
-nav ul li a {
-    color: #fff;
+a {
+    display: inline-block;
+    padding: 7px 15px; 
     text-decoration: none;
-    position: sticky;
-    padding: 10px 20px; 
-    border-radius: 5px; 
-    background-color: #057f19;
+    color: #ffffff; 
+    background-color: #0e6334; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
 }
 
+a:hover {
+    background-color: #199e55;
+    transform: scale(1.1); 
+}
+
+.slider-container {
+    width: 95%;
+    overflow: hidden;
+}
 
 .slider {
-    width: 120%;
-    height: 100%;
+    display: flex;
+    transition: transform 0.5s ease; 
+    
 }
 
-.slide {
-    width: 90%;
-    height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    background-position: center;
-    transition: opacity 0.5s ease-in-out;
+.slider img {
+    width: 100%;
+    height: auto;
 }
+p {
+    text-align: justify;
+    margin-right: 20px;
+    color: rgb(139, 138, 138);
+    font-weight: 500;
+}
+
 
 .content {
     text-align: center;
@@ -73,32 +107,70 @@ nav ul li a {
 }
 
 .redes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-flex; 
+
 }
 
-.redes img {
-    width: 30px; 
-    margin: 0 5px; 
+.red-social {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 20px; 
+    background-size: cover;
+    transition: background-image 0.3s ease;
+    cursor: pointer;
+}
+
+#red1 {
+    background-image: url("./imagenes/campus_de_enfermeria_01_btn_redes_01.png");
+}
+
+#red1:hover {
+    background-image: url("./imagenes/campus_de_enfermeria_01_btn_redes_01_over.png");
+}
+
+#red2 {
+    background-image: url("./imagenes/campus_de_enfermeria_01_btn_redes_02.png");
+}
+
+#red2:hover {
+    background-image: url("./imagenes/campus_de_enfermeria_01_btn_redes_02_over.png");
+}
+
+#red3 {
+    background-image: url("./imagenes/campus_de_enfermeria_01_btn_redes_03.png");
+}
+
+#red3:hover {
+    background-image: url("./imagenes/campus_de_enfermeria_01_btn_redes_03_over.png");
+}
+
+#red4 {
+    background-image: url("./imagenes/campus_de_enfermeria_01_btn_redes_04.png");
+}
+
+#red4:hover {
+    background-image: url("./imagenes/campus_de_enfermeria_01_btn_redes_04_over.png");
 }
 
 .pie {
-    width: 100%; 
+    width: 90vw; /* Ancho del viewport */
     position: relative;
-    overflow: hidden; 
+    overflow: hidden;
+    margin: 0; /* Elimina márgenes */
+    padding: 0; /* Elimina relleno */
 }
 
 .pieCurva {
-    width: 100%; 
+    width: 100%;
     position: relative;
 }
 
 .pieLogo {
     position: absolute;
-    bottom: 0;
-    left: 0;
-    margin: 0;
+    bottom: 45px; /* Ajusta el valor según lo desees */
+    left: 30px;
+    margin: 0 auto; /* Centra horizontalmente si es necesario */
 }
 .two{
     display: flex;

@@ -7,6 +7,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
         var contenidoACargar = document.getElementById("contenido-a-cargar");
         contenidoACargar.innerHTML = `
+            <div class="cabezote"> 
+                <img src="./cabezotes/campus_de_enfermeria_Identidad-Grafica_banner_02.png" alt="" class="">
+            </div>
+
             <div class="formacionText">
                 <p>En este espacio del campus virtual los docentes y empleados administrativos
                  de la Facultad de Enfermería cuentan con opciones de capacitación en línea que ofrecen 
@@ -16,8 +20,19 @@ document.addEventListener("DOMContentLoaded", function() {
                  métodos pedagógicos que faciliten el logro de los fines éticos y académicos de la Facultad de Enfermería y la Universidad.</p>
             </div>
             <div class="formacionImg">
-                <img src="./imagenes/campus_de_enfermeria_02_formacion_seminarios.png" alt="" class="">
-                <img src="./imagenes/campus_de_enfermeria_02_formacion_cursos.png" alt="" class="">
+                <a href="#" class="enlace-imagen"><img src="./imagenes/campus_de_enfermeria_02_formacion_seminarios.png" alt="Seminarios"></a>
+                <a href="#" class="enlace-imagen"><img src="./imagenes/campus_de_enfermeria_02_formacion_cursos.png" alt="Cursos"></a>
+            </div>
+            <div class="redes">
+                <div class="red-social" id="red1"></div>
+                <div class="red-social" id="red2"></div>
+                <div class="red-social" id="red3"></div>
+                <div class="red-social" id="red4"></div>
+            </div>
+            
+            <div class="pie">
+                <img class="pieCurva" src="./imagenes/campus_de_enfermeria_pata_fondo.png" alt="">
+                <img class="pieLogo" src="./imagenes/campus_de_enfermeria_pata_logo.png" alt="">
             </div>
         `;
     });
@@ -28,23 +43,42 @@ document.addEventListener("DOMContentLoaded", function() {
         event.preventDefault();
         var contenidoACargar = document.getElementById("contenido-a-cargar");
         contenidoACargar.innerHTML = `
+        <div class="slider-container">
+        <div class="slider">
+            <img src="./Slider/campus_de_enfermeria_Identidad-Grafica_banner_01.png" alt="Imagen 1">
+            <img src="./Slider/campus_de_enfermeria_Identidad-Grafica_banner_06.png">
+            <img src="./Slider/campus_de_enfermeria_Identidad-Grafica_banner_07.png">
+            <img src="./Slider/campus_de_enfermeria_Identidad-Grafica_banner_08.png">
+            <!-- Agrega más imágenes según sea necesario -->
+        </div>
+    </div>
+        
         <div class="two">
         <div class="bienvenida">
-            <p>El Campus Virtual de Enfermería UdeA es un entorno de aprendizaje colaborativo diseñado para fomentar el desarrollo de conocimientos acordes a las necesidades de formación de excelencia en el cuidado de la salud. En este espacio aprovechamos las posibilidades que ofrecen las Tecnologías de la Información y las Comunicaciones (TIC) y la plataforma Moodle para brindarte una experiencia educativa enriquecedora.
+            <p>El Campus Virtual de Enfermería UdeA es un entorno de aprendizaje colaborativo diseñado para fomentar el desarrollo de conocimientos acordes a las necesidades de formación de excelencia en el cuidado de la salud. En este espacio aprovechamos las posibilidades que ofrecen las Tecnologías de la Información y las Comunicaciones (TIC) y la plataforma Moodle para brindarte una experiencia educativa enriquecedora.<br><br>
 
-                        Nuestro compromiso es proporcionar a estudiantes, docentes y a todas las comunidades interesadas un espacio de aprendizaje interactivo, accesible y de calidad que impulse el crecimiento y conocimiento en el ámbito de la enfermería. 
-                        
-                        ¡Bienvenido a esta plataforma que apoya tu desarrollo profesional y personal en este campo tan importante!
-                        
-                        También puedes encontrarnos en:
+            Nuestro compromiso es proporcionar a estudiantes, docentes y a todas las comunidades interesadas un espacio de aprendizaje interactivo, accesible y de calidad que impulse el crecimiento y conocimiento en el ámbito de la enfermería. <br><br>
+            ¡Bienvenido a esta plataforma que apoya tu desarrollo profesional y personal en este campo tan importante!<br><br>
+            También puedes encontrarnos en:
                         </p>
                 </div>
                 <div class="video">
-                    <img src="./imagenes/campus_de_enfermeria_03_pregrado_s1.png" alt="">
+                    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=uP-ONtU7Fn8" frameborder="0" allowfullscreen></iframe>
                 </div>
 
             </div>
         </div>
+        <div class="redes">
+            <div class="red-social" id="red1"></div>
+            <div class="red-social" id="red2"></div>
+            <div class="red-social" id="red3"></div>
+            <div class="red-social" id="red4"></div>
+        </div>
+    
+    <div class="pie">
+        <img class="pieCurva" src="./imagenes/campus_de_enfermeria_pata_fondo.png" alt="">
+        <img class="pieLogo" src="./imagenes/campus_de_enfermeria_pata_logo.png" alt="">
+    </div>
         `
     });
     //_______________________________PREGRADO____________________________________________________________________
@@ -53,6 +87,10 @@ document.addEventListener("DOMContentLoaded", function() {
         event.preventDefault();
         var contenidoACargar = document.getElementById("contenido-a-cargar");
         contenidoACargar.innerHTML=`
+        <div class="cabezote">
+                <img src="./cabezotes/campus_de_enfermeria_Identidad-Grafica_banner_03.png" alt="" class="">
+            </div>
+
             <div class="pregradoText">
                 <p>En este espacio del campus virtual los estudiantes del pregrado en Enfermería encontrarán, por nivel académico, una variedad de cursos, herramientas y contenido educativo contemplado en el plan de estudios que será de apoyo a la presencialidad a través de recursos y estrategias de participación como talleres en línea, foros de discusión, bibliotecas digitales y oportunidades de desarrollo profesional. 
                 Conoce los componentes y las asignaturas de cada semestre haciendo clic sobre las tarjetas:
@@ -70,6 +108,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 <img src="./imagenes/campus_de_enfermeria_03_pregrado_s9.png" alt="" class="">
                 <img src="./imagenes/campus_de_enfermeria_03_pregrado_s10.png" alt="" class="">
             </div>
+        
+            
+            <div class="pie">
+                <img class="pieCurva" src="./imagenes/campus_de_enfermeria_pata_fondo.png" alt="">
+                <img class="pieLogo" src="./imagenes/campus_de_enfermeria_pata_logo.png" alt="">
+            </div>
         `
     })
 
@@ -79,6 +123,10 @@ document.addEventListener("DOMContentLoaded", function() {
         event.preventDefault();
         var contenidoACargar = document.getElementById("contenido-a-cargar");
         contenidoACargar.innerHTML=`
+            <div class="cabezote"> 
+                <img src="./cabezotes/campus_de_enfermeria_Identidad-Grafica_banner_04.png" alt="" class="">
+            </div>
+
             <div class="posgradoText">
                 <p>En este espacio del campus virtual los aspirantes y estudiantes de posgrado de 
                 la Facultad de Enfermería encontrarán la oferta programas y cursos de apoyo a la 
@@ -95,6 +143,13 @@ document.addEventListener("DOMContentLoaded", function() {
                 <img src="./imagenes/campus_de_enfermeria_04_tarejta_05.png" alt="" class="">
                 <img src="./imagenes/campus_de_enfermeria_04_tarejta_06.png" alt="" class="">
             </div>
+
+            
+            
+            <div class="pie">
+                <img class="pieCurva" src="./imagenes/campus_de_enfermeria_pata_fondo.png" alt="">
+                <img class="pieLogo" src="./imagenes/campus_de_enfermeria_pata_logo.png" alt="">
+            </div>
         `
     })
     //_________________________________EXTENCION_________________________________________________________________
@@ -103,6 +158,10 @@ document.addEventListener("DOMContentLoaded", function() {
         event.preventDefault();
         var contenidoACargar = document.getElementById("contenido-a-cargar");
         contenidoACargar.innerHTML=`
+            <div class="cabezote"> 
+                <img src="./cabezotes/campus_de_enfermeria_Identidad-Grafica_banner_05.png" alt="" class="">
+            </div>
+
         <div class="posgradoText">
             <p>En este espacio del campus virtual todas las personas de las áreas de la salud vinculadas a la Facultad de Enfermería, incluyendo instituciones de educación y empresas, podrán encontrar una amplia oferta de capacitación, actualización y divulgación de conocimientos en áreas de interés. Este sitio es una oportunidad de formación virtual que conecta la Facultad de Enfermería con las personas, los sectores productivos, las regiones, el país y el mundo. 
             En la oferta académica se encuentran programas virtuales dirigidos o autogestionables, como diplomados, certificaciones en convenios, cursos de actualización, seminarios y proyectos, que permiten a los estudiantes adquirir conocimientos y habilidades en diferentes áreas de estudio.
@@ -116,8 +175,63 @@ document.addEventListener("DOMContentLoaded", function() {
             <img src="./imagenes/campus_de_enfermeria_05_btn_05.png" alt="" class="">
             <img src="./imagenes/campus_de_enfermeria_05_btn_06.png" alt="" class="">
         </div>
+        
+        
+        <div class="pie">
+            <img class="pieCurva" src="./imagenes/campus_de_enfermeria_pata_fondo.png" alt="">
+            <img class="pieLogo" src="./imagenes/campus_de_enfermeria_pata_logo.png" alt="">
+        </div>
         `
     })
 
 
+});
+document.addEventListener("DOMContentLoaded", function() {
+    const slider = document.querySelector('.slider');
+    let slideIndex = 0;
+
+    function nextSlide() {
+        if (slideIndex === slider.children.length - 1) {
+            slideIndex = 0;
+        } else {
+            slideIndex++;
+        }
+        updateSlidePosition();
+    }
+
+    function updateSlidePosition() {
+        const slideWidth = slider.clientWidth;
+        slider.style.transform = `translateX(${-slideIndex * slideWidth}px)`;
+    }
+
+    setInterval(nextSlide, 3000); //2seg
+});
+document.addEventListener('DOMContentLoaded', function() {
+    var redes = document.querySelectorAll('.red-social');
+
+    // Itera sobre cada elemento .red-social y agrega un evento de clic
+    redes.forEach(function(red) {
+        red.addEventListener('click', function() {
+            // Obtiene el ID del elemento clicado para determinar qué enlace debe abrir
+            var id = this.id;
+
+            // Ejemplo: Abre diferentes enlaces según el ID del elemento clicado
+            switch (id) {
+                case 'red1':
+                    window.location.href = 'https://www.facebook.com/extension.enfermeriaudea';
+                    break;
+                case 'red2':
+                    window.location.href = 'https://www.instagram.com/enfermeriaudea_/';
+                    break;
+                case 'red3':
+                    window.location.href = 'https://x.com/EnfemeriaUdeA';
+                    break;
+                case 'red4':
+                    window.location.href = 'https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/enfermeria';
+                    break;
+                default:
+                    break;
+            }
+        });
+    });
 });
