@@ -23,13 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <a href="#" class="enlace-imagen"><img src="./imagenes/campus_de_enfermeria_02_formacion_seminarios.png" alt="Seminarios"></a>
                 <a href="#" class="enlace-imagen"><img src="./imagenes/campus_de_enfermeria_02_formacion_cursos.png" alt="Cursos"></a>
             </div>
-            <div class="redes">
-                <div class="red-social" id="red1"></div>
-                <div class="red-social" id="red2"></div>
-                <div class="red-social" id="red3"></div>
-                <div class="red-social" id="red4"></div>
-            </div>
-            
+                  
             <div class="pie">
                 <img class="pieCurva" src="./imagenes/campus_de_enfermeria_pata_fondo.png" alt="">
                 <img class="pieLogo" src="./imagenes/campus_de_enfermeria_pata_logo.png" alt="">
@@ -108,7 +102,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 <img src="./imagenes/campus_de_enfermeria_03_pregrado_s9.png" alt="" class="">
                 <img src="./imagenes/campus_de_enfermeria_03_pregrado_s10.png" alt="" class="">
             </div>
-        
             
             <div class="pie">
                 <img class="pieCurva" src="./imagenes/campus_de_enfermeria_pata_fondo.png" alt="">
@@ -135,7 +128,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 tecnologías de la información y las comunicaciones, además de la posibilidad de acceder
                 a material y actividades de formación desde cualquier lugar con conexión a internet. </p>
             </div>
-            <div class="pregradoImg">
+            <div class="posgradoImg">
                 <img src="./imagenes/campus_de_enfermeria_04_tarejta_01.png" alt="" class="">
                 <img src="./imagenes/campus_de_enfermeria_04_tarejta_02.png" alt="" class="">
                 <img src="./imagenes/campus_de_enfermeria_04_tarejta_03.png" alt="" class="">
@@ -209,13 +202,10 @@ document.addEventListener("DOMContentLoaded", function() {
 document.addEventListener('DOMContentLoaded', function() {
     var redes = document.querySelectorAll('.red-social');
 
-    // Itera sobre cada elemento .red-social y agrega un evento de clic
     redes.forEach(function(red) {
         red.addEventListener('click', function() {
-            // Obtiene el ID del elemento clicado para determinar qué enlace debe abrir
             var id = this.id;
 
-            // Ejemplo: Abre diferentes enlaces según el ID del elemento clicado
             switch (id) {
                 case 'red1':
                     window.location.href = 'https://www.facebook.com/extension.enfermeriaudea';

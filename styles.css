@@ -154,11 +154,11 @@ p {
 }
 
 .pie {
-    width: 90vw; /* Ancho del viewport */
+    width: 90vw; 
     position: relative;
     overflow: hidden;
-    margin: 0; /* Elimina márgenes */
-    padding: 0; /* Elimina relleno */
+    margin: 0; 
+    padding: 0; 
 }
 
 .pieCurva {
@@ -168,11 +168,59 @@ p {
 
 .pieLogo {
     position: absolute;
-    bottom: 45px; /* Ajusta el valor según lo desees */
+    bottom: 45px; 
     left: 30px;
-    margin: 0 auto; /* Centra horizontalmente si es necesario */
+    margin: 0 auto; 
 }
 .two{
     display: flex;
     margin-top: 20px;
+}
+.formacionImg {
+    text-align: center; 
+}
+
+.formacionImg .enlace-imagen {
+    display: inline-block;
+    margin: 0 10px; 
+    text-decoration: none; 
+    background-color: transparent; 
+}
+
+.formacionImg .enlace-imagen img {
+    display: block; 
+    width: 80%; 
+    max-width: 200px; 
+    border-radius: 10px; 
+    transition: transform 0.3s ease; 
+}
+
+.formacionImg .enlace-imagen:hover img {
+    transform: scale(0.95); 
+}
+
+.pregradoImg {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+
+.pregradoImg img {
+    max-width: 100px; 
+    height: auto; 
+    margin: 5px; 
+}
+.posgradoImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+}
+
+.posgradoImg img {
+    width: 30%; 
+    height: auto; 
+    max-width: 200px; 
 }
