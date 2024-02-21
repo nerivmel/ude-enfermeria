@@ -70,19 +70,21 @@ a:hover {
 }
 
 .slider-container {
-    width: 95%;
+    width: 100%; /* Ajusta el ancho del contenedor al 100% */
     overflow: hidden;
+    position: relative; /* Añade posición relativa para el slider */
 }
 
 .slider {
     display: flex;
     transition: transform 0.5s ease; 
-    
+    width: 400%; /* Ajusta el ancho del slider al 400% para contener todas las imágenes */
 }
 
 .slider img {
-    width: 100%;
-    height: auto;
+    width: 100%; /* Ajusta el ancho de las imágenes al 100% del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
+    object-fit: cover; /* Mantiene la proporción de la imagen y cubre todo el contenedor */
 }
 p {
     text-align: justify;
@@ -198,29 +200,87 @@ p {
 .formacionImg .enlace-imagen:hover img {
     transform: scale(0.95); 
 }
+.tituloSeminario {
+    text-align: center;
+    color: white;
+    background-color: #0e6334;
+}
+
+.seminariosImg {
+    display: flex; /* Para organizar las imágenes horizontalmente */
+    justify-content: center; /* Para centrar las imágenes horizontalmente */
+    
+}
+
+.seminariosImg img {
+    width: 200px; /* Tamaño deseado para las imágenes */
+    height: auto; /* Mantener la proporción original */
+    margin: 10px; /* Espacio entre las imágenes */
+   
+}
 
 .pregradoImg {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    flex-wrap: wrap; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
 }
 
 .pregradoImg img {
-    max-width: 100px; 
+    width: 30%; 
     height: auto; 
-    margin: 5px; 
+    max-width: 200px; 
 }
 .posgradoImg {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 10px; 
+    gap: 20px; 
 }
 
 .posgradoImg img {
     width: 30%; 
     height: auto; 
     max-width: 200px; 
+}
+
+@media screen and (max-width: 768px) {
+    .slider-container {
+        width: 95%;
+        overflow: hidden;
+    }
+    
+    .slider {
+        display: flex;
+        transition: transform 0.5s ease; 
+        
+    }
+    
+    .slider img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Media query adicional si es necesario para pantallas aún más pequeñas */
+@media screen and (max-width: 480px) {
+    .slider-container {
+    width: 95%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease; 
+    
+}
+
+.slider img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
 }

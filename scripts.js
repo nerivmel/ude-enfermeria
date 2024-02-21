@@ -22,6 +22,22 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="formacionImg">
                 <a href="#" class="enlace-imagen"><img src="./imagenes/campus_de_enfermeria_02_formacion_seminarios.png" alt="Seminarios"></a>
                 <a href="#" class="enlace-imagen"><img src="./imagenes/campus_de_enfermeria_02_formacion_cursos.png" alt="Cursos"></a>
+                    <div id="seminariosContent" style="display: none;">
+                        <h2 class="tituloSeminario">Seminarios</h2>
+                        <div class="seminariosImg">
+                            <img src="./imagenes/campus_de_enfermeria_02_fondo_seminario01.png" alt="Seminario 1">
+                            <img src="./imagenes/campus_de_enfermeria_02_fondo_seminario01.png">
+                            <img src="./imagenes/campus_de_enfermeria_02_fondo_seminario01.png">
+                        </div>
+                    </div>
+                    <div id="cursosContent" style="display: none;">
+                        <h2 class="tituloSeminario">Cursos</h2>
+                        <div class="seminariosImg">
+                            <img src="./imagenes/campus_de_enfermeria_02_fondo_curso01.png" alt="Seminario 1">
+                            <img src="./imagenes/campus_de_enfermeria_02_fondo_curso02.png">
+                            <img src="./imagenes/campus_de_enfermeria_02_fondo_curso03.png">
+                        </div>
+                    </div>     
             </div>
                   
             <div class="pie">
@@ -29,7 +45,18 @@ document.addEventListener("DOMContentLoaded", function() {
                 <img class="pieLogo" src="./imagenes/campus_de_enfermeria_pata_logo.png" alt="">
             </div>
         `;
+        var seminariosContent = document.getElementById('seminariosContent');
+        var seminariosLink = contenidoACargar.querySelector('.enlace-imagen:first-child');
+        seminariosLink.addEventListener('click', function(event) {
+            event.preventDefault();
+            if (seminariosContent.style.display === 'block') {
+                seminariosContent.style.display = 'none';
+            } else {
+                seminariosContent.style.display = 'block';
+            }
+        });
     });
+    
 
     //_____________INICIO______________________________________________________________________________________
     var inicioLink = document.getElementById("inicio-link");
@@ -160,7 +187,7 @@ document.addEventListener("DOMContentLoaded", function() {
             En la oferta académica se encuentran programas virtuales dirigidos o autogestionables, como diplomados, certificaciones en convenios, cursos de actualización, seminarios y proyectos, que permiten a los estudiantes adquirir conocimientos y habilidades en diferentes áreas de estudio.
              </p>
         </div>
-        <div class="pregradoImg">
+        <div class="formacionImg">
             <img src="./imagenes/campus_de_enfermeria_05_btn_01.png" alt="" class="">
             <img src="./imagenes/campus_de_enfermeria_05_btn_02.png" alt="" class="">
             <img src="./imagenes/campus_de_enfermeria_05_btn_03.png" alt="" class="">
@@ -182,9 +209,10 @@ document.addEventListener("DOMContentLoaded", function() {
 document.addEventListener("DOMContentLoaded", function() {
     const slider = document.querySelector('.slider');
     let slideIndex = 0;
+    const slides = slider.children;
 
     function nextSlide() {
-        if (slideIndex === slider.children.length - 1) {
+        if (slideIndex === slides.length - 1) {
             slideIndex = 0;
         } else {
             slideIndex++;
@@ -193,12 +221,14 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function updateSlidePosition() {
-        const slideWidth = slider.clientWidth;
+        const slideWidth = slides[0].clientWidth;
         slider.style.transform = `translateX(${-slideIndex * slideWidth}px)`;
     }
 
-    setInterval(nextSlide, 3000); //2seg
+    setInterval(nextSlide, 3000);
 });
+
+
 document.addEventListener('DOMContentLoaded', function() {
     var redes = document.querySelectorAll('.red-social');
 
@@ -225,3 +255,4 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
