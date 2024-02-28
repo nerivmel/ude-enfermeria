@@ -205,6 +205,11 @@ p {
     color: white;
     background-color: #0e6334;
 }
+.tituloSemestre1{
+    text-align: center;
+    color: white;
+    background-color: #0e6334;
+}
 
 .seminariosImg {
     display: flex; /* Para organizar las imágenes horizontalmente */
@@ -219,19 +224,6 @@ p {
    
 }
 
-.pregradoImg {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px; 
-}
-
-.pregradoImg img {
-    width: 30%; 
-    height: auto; 
-    max-width: 200px; 
-}
 .posgradoImg {
     display: flex;
     flex-wrap: wrap;
@@ -292,6 +284,116 @@ p {
     cursor: pointer;
   }
   
+  .pregradoImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pregradoImg a {
+    margin-left: -20px;/* Ajusta el espacio entre los enlaces */
+    margin-right: -20px;
+}
+
+.pregradoImg img {
+    width: 80%; 
+    height: auto; 
+    max-width: 210px;
+    margin-bottom: 1px; /* Si deseas espacio entre cada imagen y el siguiente */
+}
+
+.pregrado-imgs {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.pregrado-imgs:hover {
+    background-color: transparent;
+    transform: scale(0.95);
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: beige;
+}
+summary {
+    list-style-type: disc; /* Elimina los puntos de lista */
+    cursor: pointer; /* Cambia el cursor al señalar */
+    color: #0e6334;
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    
+}
+
+.materias{
+    display: grid;
+    grid-template-columns: 1fr; /* Una sola columna */
+    gap: 10px; /* Espacio entre elementos */
+    list-style-type: none; /* Eliminar estilos de lista predeterminados */
+    padding: 0; /* Eliminar relleno predeterminado */
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.linksito {
+    color: green; /* Color verde para el texto del enlace */
+    text-decoration: none; /* Elimina la decoración de subrayado predeterminada */
+    border-bottom: 1px solid green; /* Agrega una línea verde debajo del enlace */
+    background-color: transparent;
+}
+
+.linksito:hover {
+    background-color: transparent;
+}
+.tituloResultado {
+    font-weight: bold; /* Texto en negrita */
+    text-align: left; /* Alineado a la izquierda */
+}
+
+.resultadoText {
+    color: black; /* Color de texto negro */
+}
+
+.profe {
+    display: flex; /* Para alinear los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+.contacto{
+    display: flex; /* Para alinear los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.profeEncargado {
+    font-weight: bold; /* Texto en negrita */
+}
+
+.profeContacto {
+    font-weight: bold; /* Texto en negrita */
+}
+.profeNombre{
+    color: #000;
+    margin-left: 4px;
+}
+
+.profeEmail {
+    color: rgb(6, 115, 108); /* Color de texto azul */
+    text-decoration: underline; /* Subrayado */
+    margin-left: 4px;
+}
+
+
+
+
 
 
 
