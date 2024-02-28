@@ -1,61 +1,159 @@
 document.addEventListener("DOMContentLoaded", function() {
    
    //________________FORMACION DA______________________________________________________________________________
-    var formacionDaLink = document.getElementById("formacion-da-link");
-    formacionDaLink.addEventListener("click", function(event) {
-        event.preventDefault(); 
+   var formacionDaLink = document.getElementById("formacion-da-link");
+   formacionDaLink.addEventListener("click", function(event) {
+       event.preventDefault(); 
+   
+       var contenidoACargar = document.getElementById("contenido-a-cargar");
+       contenidoACargar.innerHTML = `
+           <!-- Contenido de formación -->
+           <div class="cabezote"> 
+               <img src="./cabezotes/campus_de_enfermeria_Identidad-Grafica_banner_02.png" alt="" class="">
+           </div>
+   
+           <div class="formacionText">
+               <p>En este espacio del campus virtual los docentes y empleados administrativos
+                   de la Facultad de Enfermería cuentan con opciones de capacitación en línea que ofrecen 
+                   oportunidades de desarrollo profesional, entrenamiento y actualización de conocimientos 
+                   relacionados con la docencia, investigación, extensión y administración, en donde podrán
+                   fortalecer asuntos disciplinarios y profesionales de su elección mediante el desarrollo de 
+                   métodos pedagógicos que faciliten el logro de los fines éticos y académicos de la Facultad de Enfermería y la Universidad.</p>
+           </div>
+   
+           <!-- Enlaces a Seminarios y Cursos -->
+           <div class="formacionImg">
+               <a href="#" class="enlace-imagen"><img src="./imagenes/campus_de_enfermeria_02_formacion_seminarios.png" alt="Seminarios"></a>
+               <a href="#" class="enlace-imagen"><img src="./imagenes/campus_de_enfermeria_02_formacion_cursos.png" alt="Cursos"></a>
+               
+               <!-- Contenido de Seminarios -->
+               <div id="seminariosContent" style="display: none;">
+                   <h2 class="tituloSeminario">Seminarios</h2>
+                   <div class="seminariosImg">
 
-        var contenidoACargar = document.getElementById("contenido-a-cargar");
-        contenidoACargar.innerHTML = `
-            <div class="cabezote"> 
-                <img src="./cabezotes/campus_de_enfermeria_Identidad-Grafica_banner_02.png" alt="" class="">
-            </div>
+                     <a href="#" class="acordeon-seminario"><img src="./imagenes/campus_de_enfermeria_02_fondo_seminario01.png" alt="seminario 1"></a>
+                     <a href="#" class="acordeon-seminario"><img src="./imagenes/campus_de_enfermeria_02_fondo_seminario02.png" alt="seminario 2"></a>
+                     <a href="#" class="acordeon-seminario"><img src="./imagenes/campus_de_enfermeria_02_fondo_seminario03.png" alt="seminario 3"></a>
+                   </div>
+               </div>
+   
+               <!-- Contenido de Cursos -->
+               <div id="cursosContent" style="display: none;">
+                   <h2 class="tituloSeminario">Cursos</h2>
+                      <div class="seminariosImg">
 
-            <div class="formacionText">
-                <p>En este espacio del campus virtual los docentes y empleados administrativos
-                 de la Facultad de Enfermería cuentan con opciones de capacitación en línea que ofrecen 
-                 oportunidades de desarrollo profesional, entrenamiento y actualización de conocimientos 
-                 relacionados con la docencia, investigación, extensión y administración, en donde podrán
-                 fortalecer asuntos disciplinarios y profesionales de su elección mediante el desarrollo de 
-                 métodos pedagógicos que faciliten el logro de los fines éticos y académicos de la Facultad de Enfermería y la Universidad.</p>
-            </div>
-            <div class="formacionImg">
-                <a href="#" class="enlace-imagen"><img src="./imagenes/campus_de_enfermeria_02_formacion_seminarios.png" alt="Seminarios"></a>
-                <a href="#" class="enlace-imagen"><img src="./imagenes/campus_de_enfermeria_02_formacion_cursos.png" alt="Cursos"></a>
-                    <div id="seminariosContent" style="display: none;">
-                        <h2 class="tituloSeminario">Seminarios</h2>
-                        <div class="seminariosImg">
-                            <img src="./imagenes/campus_de_enfermeria_02_fondo_seminario01.png" alt="Seminario 1">
-                            <img src="./imagenes/campus_de_enfermeria_02_fondo_seminario01.png">
-                            <img src="./imagenes/campus_de_enfermeria_02_fondo_seminario01.png">
-                        </div>
+                      <a href="#" class="acordeon-cursos"><img src="./imagenes/campus_de_enfermeria_02_fondo_curso01.png" alt="curso 1"></a>
+                      <a href="#" class="acordeon-cursos"><img src="./imagenes/campus_de_enfermeria_02_fondo_curso02.png" alt="curso 2"></a>
+                      <a href="#" class="acordeon-cursos"><img src="./imagenes/campus_de_enfermeria_02_fondo_curso03.png" alt="curso 3"></a>
+
+                      </div>
+                </div>
+           </div>
+           <div id="modalc" class="modalc">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div id="cursoContent" class="curso-content">
+                    <!-- Contenido del curso -->
                     </div>
-                    <div id="cursosContent" style="display: none;">
-                        <h2 class="tituloSeminario">Cursos</h2>
-                        <div class="seminariosImg">
-                            <img src="./imagenes/campus_de_enfermeria_02_fondo_curso01.png" alt="Seminario 1">
-                            <img src="./imagenes/campus_de_enfermeria_02_fondo_curso02.png">
-                            <img src="./imagenes/campus_de_enfermeria_02_fondo_curso03.png">
-                        </div>
-                    </div>     
+                </div>
             </div>
-                  
-            <div class="pie">
-                <img class="pieCurva" src="./imagenes/campus_de_enfermeria_pata_fondo.png" alt="">
-                <img class="pieLogo" src="./imagenes/campus_de_enfermeria_pata_logo.png" alt="">
+            <div id="modals" class="modals">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div id="seminarioContent" class="seminario-content">
+                    <!-- Contenido del seminario -->
+                    </div>
+                </div>
             </div>
-        `;
-        var seminariosContent = document.getElementById('seminariosContent');
-        var seminariosLink = contenidoACargar.querySelector('.enlace-imagen:first-child');
-        seminariosLink.addEventListener('click', function(event) {
+            
+           <!-- Pie de página -->
+           <div class="pie">
+               <img class="pieCurva" src="./imagenes/campus_de_enfermeria_pata_fondo.png" alt="">
+               <img class="pieLogo" src="./imagenes/campus_de_enfermeria_pata_logo.png" alt="">
+           </div>
+       `;
+   
+       // Agregar comportamiento para Seminarios
+       var seminariosContent = document.getElementById('seminariosContent');
+       var seminariosLink = contenidoACargar.querySelector('.enlace-imagen:first-child');
+       seminariosLink.addEventListener('click', function(event) {
+           event.preventDefault();
+           if (seminariosContent.style.display === 'block') {
+               seminariosContent.style.display = 'none';
+           } else {
+               seminariosContent.style.display = 'block';
+           }
+       });
+   
+       // Agregar comportamiento para Cursos
+       var cursosContent = document.getElementById('cursosContent');
+       var cursosLink = contenidoACargar.querySelector('.enlace-imagen:nth-child(2)');
+       cursosLink.addEventListener('click', function(event) {
+           event.preventDefault();
+           if (cursosContent.style.display === 'block') {
+               cursosContent.style.display = 'none';
+           } else {
+               cursosContent.style.display = 'block';
+           }
+       });
+
+       //modal curso
+        var cursosLink = contenidoACargar.querySelectorAll('.acordeon-cursos');
+        var modalcurso = document.getElementById("modalc");
+        var cursoContent = document.getElementById("cursoContent");
+
+        cursosLink.forEach(function(link) {
+        link.addEventListener('click', function(event) {
             event.preventDefault();
-            if (seminariosContent.style.display === 'block') {
-                seminariosContent.style.display = 'none';
-            } else {
-                seminariosContent.style.display = 'block';
-            }
+            // Agregar aquí el contenido del curso correspondiente
+            var cursoAlt = this.querySelector('img').alt;
+            cursoContent.innerHTML = "<h2>" + cursoAlt + "</h2><p>Descripción del curso " + cursoAlt + "</p>"+ "</h2><p>Duración " + "xxxxxxx" + "</p>"+ "</h2><p>Requisitos de inscripción" + "xxxxxxx" + "</p>"+ "</h2><p>Fechas " + "xxxxx"+ "</p>";
+            modalcurso.style.display = "block";
         });
-    });
+        });
+
+        // Cerrar el modal al hacer clic en la 'x'
+        var closeBtn = document.getElementsByClassName("close")[0];
+        closeBtn.addEventListener('click', function() {
+            modalcurso.style.display = "none";
+        });
+
+        // Cerrar el modal al hacer clic fuera de él
+        window.addEventListener('click', function(event) {
+        if (event.target == modalcurso) {
+            modalcurso.style.display = "none";
+        }
+        });
+        //modal seminario
+        var seminarioLink = contenidoACargar.querySelectorAll('.acordeon-seminario');
+        var modalseminario = document.getElementById("modals");
+        var seminarioContent = document.getElementById("seminarioContent");
+
+        seminarioLink.forEach(function(link) {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+            // Agregar aquí el contenido del seminario correspondiente
+            var seminarioAlt = this.querySelector('img').alt;
+            seminarioContent.innerHTML = "<h2>" + seminarioAlt + "</h2><p>Descripción del seminario " + seminarioAlt + "</p>"+ "</h2><p>Duracion " + "xxxxxx" + "</p>"+ "</h2><p>Requisitos de inscripción " +  + "</p>"+ "</h2><p>fecha " + "xxxxxxx" + "</p>";
+            modalseminario.style.display = "block";
+        });
+        });
+
+        // Cerrar el modal al hacer clic en la 'x'
+        var closeBtn = document.getElementsByClassName("close")[0];
+        closeBtn.addEventListener('click', function() {
+            modalseminario.style.display = "none";
+        });
+
+        // Cerrar el modal al hacer clic fuera de él
+        window.addEventListener('click', function(event) {
+        if (event.target == modalseminario) {
+            modalseminario.style.display = "none";
+        }
+        });
+   });
+   
+
     
 
     //_____________INICIO______________________________________________________________________________________
