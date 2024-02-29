@@ -82,6 +82,7 @@ document.addEventListener("DOMContentLoaded", function() {
                seminariosContent.style.display = 'none';
            } else {
                seminariosContent.style.display = 'block';
+               cursosContent.style.display = 'none';
            }
        });
    
@@ -92,8 +93,10 @@ document.addEventListener("DOMContentLoaded", function() {
            event.preventDefault();
            if (cursosContent.style.display === 'block') {
                cursosContent.style.display = 'none';
+               
            } else {
                cursosContent.style.display = 'block';
+               seminariosContent.style.display = 'none';
            }
        });
 
@@ -276,24 +279,22 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </tr>
                                 <tr>
                                     <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=6">6007002- Español Académico: habilidades comunicativas</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
+                            <p class="resultadoText">   NaN  </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">  NaN  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> NaN </p>
                             </div>
                         </details>
                     </li>
@@ -311,31 +312,29 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </tr>
                                 <tr>
                                     <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=7">9060101-English I</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
+                            <p class="resultadoText">   NaN  </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail">  </p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
                             <summary>Biología celular y genética. Teoría y laboratorio</summary>
-                            <!-- Contenido de la materia 2 -->
+                            <!-- Contenido de la materia -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -346,31 +345,31 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </tr>
                                 <tr>
                                     <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td>4</td>
+                                    <td>85</td>
+                                    <td>107</td>
+                                    <td>192</td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=8">6007003-Biología celular y genética. Teoría y laboratorio.</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+                            <p class="resultadoText">  
+                                Reconozco los elementos biológicos que constituyen a los seres vivos, sus funciones y las situaciones del entorno que los modifican a través de métodos expositivos, talleres y realización de laboratorios con el fin entender los procesos normales y su influencia en el proceso salud-enfermedad.
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre"> Viviana Cardona  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
                             <summary>Bioquímica I</summary>
-                            <!-- Contenido de la materia 2 -->
+                            <!-- Contenido de la materia -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -382,30 +381,29 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <tr>
                                     <td>Teórico</td>
                                     <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
+                                    <td>34</td>
+                                    <td>14</td>
                                     <td>48</td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=9">6007004-Bioquímica I</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
+                                Reconozco las principales características estructurales y funcionales de las moléculas, su relación con los procesos bioquímicos y su regulación a partir de la integración de los conceptos teóricos aplicados en situaciones específicas para la toma de decisiones en el cuidado de enfermería                            </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre"> Leidy Astrid Hoyos Giraldo  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> leidyhoyos@gmail.com</p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
                             <summary>Desarrollo disciplinar de la enfermería</summary>
-                            <!-- Contenido de la materia 2 -->
+                            <!-- Contenido de la materia -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -416,24 +414,23 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </tr>
                                 <tr>
                                     <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
+                                    <td>3</td>
                                     <td>48</td>
+                                    <td>96</td>
+                                    <td>144</td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=10">6007005-Desarrollo disciplinar de la enfermería</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
+                                Conozco el desarrollo de la enfermería como profesión, ciencia, disciplina y arte del cuidado desde los métodos histórico y científico; su evolución social, teórica y práctica, y conozco los aportes al cuidado de la experiencia de la salud de las personas, grupos y comunidades en todos los contextos en los que viven y se desarrollan, teniendo como fuentes del conocimiento la teoría, la práctica y la investigación y reconociendo cómo los cambios sociales han incidido en ello.                            </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre"> Alba Luz Rodríguez Acelas  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> aluz.rodriguez@udea.edu.co</p>
                             </div>
                         </details>
                     </li>
@@ -451,24 +448,24 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </tr>
                                 <tr>
                                     <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=11">6007006-Sociología de la salud I: Sociedad y salud</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">   </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
@@ -492,18 +489,17 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <td>48</td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=12">6007007-Investigación I: fundamentos de investigación</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
+                                Conozco conceptos y definiciones de los paradigmas de investigación científica a partir de la participación cooperativa en seminarios y debates en el contexto histórico y académico de enfermería para asumir una postura crítica desde la producción de conocimientos científicos y la innovación.                            </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre"> Jaime Horacio Toro Ocampo   </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> horacio.toro@udea.edu.co</p>
                             </div>
                         </details>
                     </li>
@@ -517,8 +513,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 <ul class="materias">
                     <li>
                         <details>
-                            <summary>materia 1</summary>
-                            <!-- Contenido de la materia 1 -->
+                            <summary>Formación ciudadana</summary>
+                            <!-- Contenido de la materia -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -529,31 +525,31 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </tr>
                                 <tr>
                                     <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=18">6007013-Formación ciudadana</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">   </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>Español Académico: habilidades comunicativas</summary>
-                            <!-- Español Académico: habilidades comunicativas -->
+                            <summary>Administración y Gestión</summary>
+                            <!-- Administración y Gestión -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -564,31 +560,30 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </tr>
                                 <tr>
                                     <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
+                                    <td>2</td>
                                     <td>48</td>
+                                    <td>48</td>
+                                    <td>96</td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=17">6007011-Administración y Gestión</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
+                                Analizo las dimensiones de la administración y la gestión para un cuidado de enfermería ético, afectivo, relacional y científico-técnico por medio de la gestión del conocimiento, los valores y la tecnología en el contexto clínico y social-comunitario para el mantenimiento de la salud y la vida de las personas, familias y comunidades.                            </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre"> Nairoby Cárdenas Velásquez  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> nairoby.cardenas@udea.edu.co</p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>English I</summary>
-                            <!-- English I -->
+                            <summary>Bioquímica II (Teoría y laboratorio)</summary>
+                            <!-- Bioquímica II (Teoría y laboratorio) -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -599,31 +594,30 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </tr>
                                 <tr>
                                     <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td> NaN </td>
+                                    <td>107</td>
+                                    <td>96</td>
+                                    <td>203</td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=16">6007010-Bioquímica II (Teoría y laboratorio)</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
+                                Comprendo los principios, procesos y mecanismos bioquímicos de regulación metabólica, sus excesos y carencias, a partir del conocimiento de sus efectos sobre el individuo en los procesos de salud-enfermedad y de la integración teórico-práctica del curso con el fin de adquirir un pensamiento crítico y reflexivo.                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre"> Luis Eduardo Paiva Duque  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> luis.paiva@udea.edu.co </p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>Biología celular y genética. Teoría y laboratorio</summary>
-                            <!-- Contenido de la materia 2 -->
+                            <summary>Morfofisiología I</summary>
+                            <!-- Contenido de la materia -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -634,31 +628,30 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </tr>
                                 <tr>
                                     <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td>3</td>
+                                    <td>72</td>
+                                    <td>72</td>
+                                    <td>144</td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=15">6007009-Morfo fisiología I</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
+                                Explico la estructura, funcionamiento y relación de los diferentes órganos y sistemas del cuerpo humano a través de métodos expositivos y utilización de modelos anatómicos o virtuales con el fin de entender los procesos normales y patológicos para el cuidado de la persona en las diferentes etapas del ciclo vital.                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre"> Alex Mauricio Lopera Arango  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> alex.lopera@udea.edu.co</p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>Bioquímica I</summary>
-                            <!-- Contenido de la materia 2 -->
+                            <summary>English II</summary>
+                            <!-- Contenido de la materia  -->
                             <table>
                             <tr>
                                 <th>Tipo de curso</th>
@@ -669,31 +662,31 @@ document.addEventListener("DOMContentLoaded", function() {
                             </tr>
                             <tr>
                                 <td>Teórico</td>
-                                <td>1</td>
-                                <td>24</td>
-                                <td>24</td>
-                                <td>48</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                         </table>
-                        <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                        <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=14">9060102-English II</a></p>
                         <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                         <p class="resultadoText">
-                            Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+
                         </p>
                         <div class="profe">
                             <h4 class="profeEncargado">Docente encargado: </h4>
-                            <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                            <p class="profeNombre">   </p>
                         </div>
                         <div class="contacto">
                             <h4 class="profeContacto">Contacto: </h4>
-                            <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                            <p class="profeEmail"> </p>
                         </div>
                     </details>
                     </li>
                     <li>
                         <details>
-                            <summary>Desarrollo disciplinar de la enfermería</summary>
-                            <!-- Contenido de la materia 2 -->
+                            <summary>Fundamentación ética</summary>
+                            <!-- Contenido de la materia -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -704,30 +697,29 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </tr>
                                 <tr>
                                     <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td>3</td>
+                                    <td>51</td>
+                                    <td>93</td>
+                                    <td>144</td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=13">6007008-Fundamentación ética</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
+                                 Reconoce los fundamentos éticos y jurídicos de la profesión relacionados con el ejercicio ciudadano y de la enfermería mediante metodologías que promueven la reflexión crítica para fomentar un cuidado humanizado en los diferentes escenarios del ejercicio de la profesión.                            </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre"> Jasmín Viviana Cacante Caballero  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> jasmin.cacante@udea.edu.co</p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>Sociología de la salud I: sociedad y salud </summary>
+                            <summary>Investigación II: Bioestadística</summary>
                             <!-- Contenido de la materia 2 -->
                             <table>
                                 <tr>
@@ -739,64 +731,27 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </tr>
                                 <tr>
                                     <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td>3</td>
+                                    <td>72</td>
+                                    <td>72</td>
+                                    <td>144</td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=3">6007012 - Investigación II: Bioestadística</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
+                                Uso fundamentos teóricos, metodológicos y prácticos de la bioestadística como una herramienta de análisis en la investigación e innovación para la toma de decisiones con un sentido crítico en contextos relacionados con el cuidado de enfermería.​                            </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre"> Diego Alejandro Salazar Blandón  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> alejandro.salazar@udea.edu.co</p>
                             </div>
                         </details>
                     </li>
-                    <li>
-                        <details>
-                            <summary>Investigación I: fundamentos de investigación </summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-
-                </ul>
+                    </ul>
             </div>
             <!-- SEMESTRE 3 -->
         
@@ -805,8 +760,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 <ul class="materias">
                     <li>
                         <details>
-                            <summary>materia 1</summary>
-                            <!-- Contenido de la materia 1 -->
+                            <summary>Electiva I</summary>
+                            <!-- Contenido de la materia -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -817,31 +772,31 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </tr>
                                 <tr>
                                     <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=43">Electiva I</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">   </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>Español Académico: habilidades comunicativas</summary>
-                            <!-- Español Académico: habilidades comunicativas -->
+                            <summary>Procesos y procedimientos básicos de la enfermería</summary>
+                            <!-- Procesos y procedimientos básicos de la enfermería -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -852,31 +807,31 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </tr>
                                 <tr>
                                     <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td>5</td>
+                                    <td>170</td>
+                                    <td>70</td>
+                                    <td>240</td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=42">6007018 - Procesos y procedimientos básicos de enfermería</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+                                Demuestro los conocimientos, las habilidades sicomotoras y técnicas y los valores necesarios para la realización de los procesos y procedimientos básicos de enfermería a través de la simulación y la práctica en el contexto hospitalario con el objetivo de brindar un cuidado de enfermería seguro y de calidad a las personas durante las diferentes etapas del ciclo vital con el fin de aportar a su bienestar.
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">  Yadira Cardozo García   </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> yadira.cardozo@udea.edu.co</p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>English I</summary>
-                            <!-- English I -->
+                            <summary>Teorías para el cuidado de enfermería</summary>
+                            <!-- Teorías para el cuidado de enfermería -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -887,31 +842,30 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </tr>
                                 <tr>
                                     <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td>2</td>
+                                    <td>34</td>
+                                    <td>62</td>
+                                    <td>96</td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=41">6007017 - Teorías para el cuidado de enfermería</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
+                                    Analizo las teorías de enfermería a través de situaciones de cuidado y fenómenos de investigación originados en los contextos clínicos, comunitarios y de gestión, buscando como fin el proceso de integración de la teoría, la práctica y la investigación en enfermería.                            </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre"> Alba Luz Rodríguez Acelas  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> aluz.rodriguez@udea.edu.co </p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>Biología celular y genética. Teoría y laboratorio</summary>
-                            <!-- Contenido de la materia 2 -->
+                            <summary>Farmacología básica</summary>
+                            <!-- Contenido de la materia  -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -922,31 +876,31 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </tr>
                                 <tr>
                                     <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=40">6007016 - Farmacología básica</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre"> </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>Bioquímica I</summary>
-                            <!-- Contenido de la materia 2 -->
+                            <summary>Morfofisiología II</summary>
+                            <!-- Contenido de la materia  -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -957,31 +911,30 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </tr>
                                 <tr>
                                     <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td>3</td>
+                                    <td>72</td>
+                                    <td>72</td>
+                                    <td>144</td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=39">6007015 - Morfo fisiología II</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
+                                Explico la estructura, funcionamiento y relación de los diferentes órganos y sistemas del cuerpo humano a través de métodos expositivos y utilización de modelos anatómicos o virtuales con el fin de entender los procesos normales y patológicos para el cuidado de la persona en las diferentes etapas del ciclo vital.                            </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre"> Alex Mauricio Lopera Arango   </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> alex.lopera@udea.edu.co</p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>Desarrollo disciplinar de la enfermería</summary>
-                            <!-- Contenido de la materia 2 -->
+                            <summary>English III</summary>
+                            <!-- Contenido de la materia  -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -992,31 +945,31 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </tr>
                                 <tr>
                                     <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=38">9060103 - English III</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">   </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>Sociología de la salud I: sociedad y salud </summary>
-                            <!-- Contenido de la materia 2 -->
+                            <summary>Microbiología y parasitología </summary>
+                            <!-- Contenido de la materia -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -1027,59 +980,24 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </tr>
                                 <tr>
                                     <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=5">6007014 - Microbiología y parasitología</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Investigación I: fundamentos de investigación </summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
@@ -1093,7 +1011,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <ul class="materias">
                     <li>
                         <details>
-                            <summary>materia 1</summary>
+                            <summary>Procesos y procedimientos avanzados de enfermería</summary>
                             <!-- Contenido de la materia 1 -->
                             <table>
                                 <tr>
@@ -1105,31 +1023,30 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </tr>
                                 <tr>
                                     <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td>5</td>
+                                    <td>170</td>
+                                    <td>70</td>
+                                    <td>240</td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=49">6007022 - Procesos y Procedimientos avanzados de enfermería</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
+                                Demuestro los conocimientos, habilidades sicomotoras y técnicas y los valores necesarios para la realización de los procesos y procedimientos avanzados de enfermería a través de la simulación y la práctica en el contexto hospitalario con el objetivo de brindar un cuidado de enfermería seguro y de calidad a las personas durante las diferentes etapas del ciclo vital con el fin de aportar a su bienestar.                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre"> Yadira Cardozo García  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> yadira.cardozo@udea.edu.co </p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>Español Académico: habilidades comunicativas</summary>
-                            <!-- Español Académico: habilidades comunicativas -->
+                            <summary>Investigación III: Epidemiología</summary>
+                            <!-- Investigación III: Epidemiología -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -1140,31 +1057,30 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </tr>
                                 <tr>
                                     <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td>3</td>
+                                    <td>51</td>
+                                    <td>93</td>
+                                    <td>144</td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=48">6007023 - Investigación III: Epidemiología</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
+                                Integro los elementos teóricos, metodológicos y prácticos de la epidemiología en el análisis de la situación de salud de individuos, familias y comunidades mediante las diferentes herramientas epidemiológicas con el fin de responder a las necesidades de salud según el contexto donde ejerce el profesional de enfermería.                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre"> María Eugenia Hincapié Zapata   </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> meugenia.hincapie@udea.edu.co</p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>English I</summary>
-                            <!-- English I -->
+                            <summary>Ética del cuidado con perspectiva de derecho</summary>
+                            <!-- Ética del cuidado con perspectiva de derecho -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -1174,31 +1090,66 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <th>Total de horas</th>
                                 </tr>
                                 <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=47">6007021 - Ética del cuidado con perspectiva de derecho</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">   </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>Biología celular y genética. Teoría y laboratorio</summary>
+                            <summary>Farmacología aplicada</summary>
+                            <!-- Contenido de la materia  -->
+                            <table>
+                                <tr>
+                                    <th>Tipo de curso</th>
+                                    <th>Créditos</th>
+                                    <th>Horas de docencia</th>
+                                    <th>Horas de trabajo independiente</th>
+                                    <th>Total de horas</th>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=46">6007020 - Farmacología aplicada</a></p>
+                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
+                            <p class="resultadoText">
+
+                            </p>
+                            <div class="profe">
+                                <h4 class="profeEncargado">Docente encargado: </h4>
+                                <p class="profeNombre">   </p>
+                            </div>
+                            <div class="contacto">
+                                <h4 class="profeContacto">Contacto: </h4>
+                                <p class="profeEmail"> </p>
+                            </div>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>English IV</summary>
                             <!-- Contenido de la materia 2 -->
                             <table>
                                 <tr>
@@ -1210,31 +1161,31 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </tr>
                                 <tr>
                                     <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=45">9060104 - English IV</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>Bioquímica I</summary>
-                            <!-- Contenido de la materia 2 -->
+                            <summary>Psicología, salud y cuidado</summary>
+                            <!-- Contenido de la materia -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -1244,32 +1195,32 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <th>Total de horas</th>
                                 </tr>
                                 <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=44">6007019 - Psicología, salud y cuidado</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">   </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>Desarrollo disciplinar de la enfermería</summary>
-                            <!-- Contenido de la materia 2 -->
+                            <summary>Electiva I</summary>
+                            <!-- Contenido de la materia  -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -1279,98 +1230,29 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <th>Total de horas</th>
                                 </tr>
                                 <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href=" ">NaN</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">   </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
-                    <li>
-                        <details>
-                            <summary>Sociología de la salud I: sociedad y salud </summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Investigación I: fundamentos de investigación </summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
+                    
 
                 </ul>
             </div>
@@ -1381,8 +1263,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 <ul class="materias">
                     <li>
                         <details>
-                            <summary>materia 1</summary>
-                            <!-- Contenido de la materia 1 -->
+                            <summary>Cuidado del ser humano en la dimensión sexual</summary>
+                            <!-- Contenido de la materia  -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -1392,274 +1274,204 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <th>Total de horas</th>
                                 </tr>
                                 <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=56">6007028 - Cuidado del ser humano en la dimensión sexual</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Español Académico: habilidades comunicativas</summary>
-                            <!-- Español Académico: habilidades comunicativas -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>English I</summary>
-                            <!-- English I -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Biología celular y genética. Teoría y laboratorio</summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Bioquímica I</summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Desarrollo disciplinar de la enfermería</summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Sociología de la salud I: sociedad y salud </summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Investigación I: fundamentos de investigación </summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
 
+                            </p>
+                            <div class="profe">
+                                <h4 class="profeEncargado">Docente encargado: </h4>
+                                <p class="profeNombre">  </p>
+                            </div>
+                            <div class="contacto">
+                                <h4 class="profeContacto">Contacto: </h4>
+                                <p class="profeEmail"> </p>
+                            </div>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>Proceso de envejecimiento y vejez</summary>
+                            <!-- Proceso de envejecimiento y vejez -->
+                            <table>
+                                <tr>
+                                    <th>Tipo de curso</th>
+                                    <th>Créditos</th>
+                                    <th>Horas de docencia</th>
+                                    <th>Horas de trabajo independiente</th>
+                                    <th>Total de horas</th>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=55">6007027 - Proceso de envejecimiento y vejez</a></p>
+                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
+                            <p class="resultadoText">
+
+                            </p>
+                            <div class="profe">
+                                <h4 class="profeEncargado">Docente encargado: </h4>
+                                <p class="profeNombre"> </p>
+                            </div>
+                            <div class="contacto">
+                                <h4 class="profeContacto">Contacto: </h4>
+                                <p class="profeEmail"> </p>
+                            </div>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>Cuidado de enfermería de la salud mental</summary>
+                            <!-- Cuidado de enfermería de la salud mental -->
+                            <table>
+                                <tr>
+                                    <th>Tipo de curso</th>
+                                    <th>Créditos</th>
+                                    <th>Horas de docencia</th>
+                                    <th>Horas de trabajo independiente</th>
+                                    <th>Total de horas</th>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=54">6007026 - Cuidado de enfermería de la salud mental</a></p>
+                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
+                            <p class="resultadoText">
+
+                            </p>
+                            <div class="profe">
+                                <h4 class="profeEncargado">Docente encargado: </h4>
+                                <p class="profeNombre">  </p>
+                            </div>
+                            <div class="contacto">
+                                <h4 class="profeContacto">Contacto: </h4>
+                                <p class="profeEmail"> </p>
+                            </div>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>Cuidado al adulto con alteraciones crónicas de salud</summary>
+                            <!-- Contenido de la materia  -->
+                            <table>
+                                <tr>
+                                    <th>Tipo de curso</th>
+                                    <th>Créditos</th>
+                                    <th>Horas de docencia</th>
+                                    <th>Horas de trabajo independiente</th>
+                                    <th>Total de horas</th>
+                                </tr>
+                                <tr>
+                                    <td>Teórico</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=53">6007025 - Cuidado al adulto con alteraciones crónicas de salud</a></p>
+                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
+                            <p class="resultadoText">
+
+                            </p>
+                            <div class="profe">
+                                <h4 class="profeEncargado">Docente encargado: </h4>
+                                <p class="profeNombre">   </p>
+                            </div>
+                            <div class="contacto">
+                                <h4 class="profeContacto">Contacto: </h4>
+                                <p class="profeEmail"> </p>
+                            </div>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>Proceso de enfermería y el sistema de lenguaje estandarizado</summary>
+                            <!-- Contenido de la materia  -->
+                            <table>
+                                <tr>
+                                    <th>Tipo de curso</th>
+                                    <th>Créditos</th>
+                                    <th>Horas de docencia</th>
+                                    <th>Horas de trabajo independiente</th>
+                                    <th>Total de horas</th>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=52">6007024 - Proceso de enfermería y el sistema de lenguaje estandarizado</a></p>
+                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
+                            <p class="resultadoText">
+
+                            </p>
+                            <div class="profe">
+                                <h4 class="profeEncargado">Docente encargado: </h4>
+                                <p class="profeNombre">   </p>
+                            </div>
+                            <div class="contacto">
+                                <h4 class="profeContacto">Contacto: </h4>
+                                <p class="profeEmail"> </p>
+                            </div>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>English V</summary>
+                            <!-- Contenido de la materia -->
+                            <table>
+                                <tr>
+                                    <th>Tipo de curso</th>
+                                    <th>Créditos</th>
+                                    <th>Horas de docencia</th>
+                                    <th>Horas de trabajo independiente</th>
+                                    <th>Total de horas</th>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=50">9060105 - English V</a></p>
+                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
+                            <p class="resultadoText">
+
+                            </p>
+                            <div class="profe">
+                                <h4 class="profeEncargado">Docente encargado: </h4>
+                                <p class="profeNombre">   </p>
+                            </div>
+                            <div class="contacto">
+                                <h4 class="profeContacto">Contacto: </h4>
+                                <p class="profeEmail"> </p>
+                            </div>
+                        </details>
+                    </li>
+                    
                 </ul>
             </div>
             <!-- SEMESTRE 6 -->
@@ -1669,8 +1481,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 <ul class="materias">
                     <li>
                         <details>
-                            <summary>materia 1</summary>
-                            <!-- Contenido de la materia 1 -->
+                            <summary>Sociología de la salud II: Aportes de la sociología a la enfermería</summary>
+                            <!-- Contenido de la materia -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -1687,25 +1499,24 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <td>48</td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=61">6007033 - Sociología de la salud II: Aportes de la sociología a la enfermería</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
+                                Analizo el proceso salud-enfermedad-cuidado de individuos y colectivos a partir de los elementos teóricos, metodológicos y prácticos que ofrece la sociología de la salud, teniendo en cuenta el contexto sociocultural y político con el propósito de identificar la complejidad de la práctica profesional en los distintos campos de actuación y reconociendo los aportes desde las ciencias sociales a la salud en perspectiva inter y transdisciplinar.                            </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre"> Lilliana Blandón  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> lilliana.blandon@udea.edu.co </p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>Español Académico: habilidades comunicativas</summary>
-                            <!-- Español Académico: habilidades comunicativas -->
+                            <summary>Investigación IV: Tipos de estudio</summary>
+                            <!-- Investigación IV: Tipos de estudio -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -1715,32 +1526,32 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <th>Total de horas</th>
                                 </tr>
                                 <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=60">6007032 - Investigación IV: Tipos de estudio</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>English I</summary>
-                            <!-- English I -->
+                            <summary>Gestión en enfermería</summary>
+                            <!-- Gestión en enfermería -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -1750,32 +1561,32 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <th>Total de horas</th>
                                 </tr>
                                 <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=59">6007031 - Gestión en enfermería</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>Biología celular y genética. Teoría y laboratorio</summary>
-                            <!-- Contenido de la materia 2 -->
+                            <summary>Cuidado de enfermería a la persona con padecimiento mental y a su familia</summary>
+                            <!-- Contenido de la materia  -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -1785,32 +1596,32 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <th>Total de horas</th>
                                 </tr>
                                 <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=58">6007030 - Cuidado de enfermería a la persona con padecimiento mental y a su familia</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>Bioquímica I</summary>
-                            <!-- Contenido de la materia 2 -->
+                            <summary>Cuidado de enfermería al paciente en situación de urgencias y emergencias</summary>
+                            <!-- Contenido de la materia -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -1820,133 +1631,29 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <th>Total de horas</th>
                                 </tr>
                                 <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=57">6007029 - Cuidado de enfermería al paciente en situación de urgencias y emergencias</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
                                 Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">   </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
-                    <li>
-                        <details>
-                            <summary>Desarrollo disciplinar de la enfermería</summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Sociología de la salud I: sociedad y salud </summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Investigación I: fundamentos de investigación </summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
+                    
 
                 </ul>
             </div>
@@ -1957,8 +1664,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 <ul class="materias">
                     <li>
                         <details>
-                            <summary>materia 1</summary>
-                            <!-- Contenido de la materia 1 -->
+                            <summary>Electiva II</summary>
+                            <!-- Contenido de la materia -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -1968,32 +1675,32 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <th>Total de horas</th>
                                 </tr>
                                 <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=66">Electiva II</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">   </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>Español Académico: habilidades comunicativas</summary>
-                            <!-- Español Académico: habilidades comunicativas -->
+                            <summary>Investigación V: Diseño de proyecto de investigación</summary>
+                            <!-- Investigación V: Diseño de proyecto de investigación -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -2003,32 +1710,32 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <th>Total de horas</th>
                                 </tr>
                                 <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=65">6007037 - Investigación V: Diseño de proyecto de investigación</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">   </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>English I</summary>
-                            <!-- English I -->
+                            <summary>Cuidado al niño y adolescente</summary>
+                            <!-- Cuidado al niño y adolescente -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -2038,32 +1745,32 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <th>Total de horas</th>
                                 </tr>
                                 <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=64">6007036 - Cuidado al niño y Adolescente</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
                                 Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>Biología celular y genética. Teoría y laboratorio</summary>
-                            <!-- Contenido de la materia 2 -->
+                            <summary>Cuidado de la salud familiar y comunitaria I</summary>
+                            <!-- Contenido de la materia  -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -2073,32 +1780,32 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <th>Total de horas</th>
                                 </tr>
                                 <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=63">6007035 - Cuidado de la salud familiar y comunitaria I</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>Bioquímica I</summary>
-                            <!-- Contenido de la materia 2 -->
+                            <summary>Cultura de los cuidados</summary>
+                            <!-- Contenido de la materia  -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -2108,133 +1815,29 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <th>Total de horas</th>
                                 </tr>
                                 <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=62">6007034 - Cultura de los cuidados</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
-                    <li>
-                        <details>
-                            <summary>Desarrollo disciplinar de la enfermería</summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Sociología de la salud I: sociedad y salud </summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Investigación I: fundamentos de investigación </summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
+                    
 
                 </ul>
             </div>
@@ -2245,7 +1848,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <ul class="materias">
                     <li>
                         <details>
-                            <summary>materia 1</summary>
+                            <summary>Investigación VI: ejecución de la investigación</summary>
                             <!-- Contenido de la materia 1 -->
                             <table>
                                 <tr>
@@ -2256,32 +1859,32 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <th>Total de horas</th>
                                 </tr>
                                 <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=71">6007041 - Investigación VI: ejecución de la investigación</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">   </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>Español Académico: habilidades comunicativas</summary>
-                            <!-- Español Académico: habilidades comunicativas -->
+                            <summary>Cuidado a la salud de los trabajadores</summary>
+                            <!-- Cuidado a la salud de los trabajadores -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -2292,31 +1895,31 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </tr>
                                 <tr>
                                     <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
+                                    <td>2</td>
                                     <td>48</td>
+                                    <td>48</td>
+                                    <td>96</td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=70">6007040 - Cuidado a la salud de los trabajadores</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre"> Catalina Sanmartín Laverde  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> catalina.sanmartin@udea.edu.co</p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>English I</summary>
-                            <!-- English I -->
+                            <summary>Cuidado de la salud familiar y comunitaria II</summary>
+                            <!-- Cuidado de la salud familiar y comunitaria II-->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -2326,32 +1929,32 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <th>Total de horas</th>
                                 </tr>
                                 <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=69">6007038 - Cuidado de la salud familiar y comunitaria II</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>Biología celular y genética. Teoría y laboratorio</summary>
-                            <!-- Contenido de la materia 2 -->
+                            <summary>Cuidado al ser humano durante el periodo perioperatorio</summary>
+                            <!-- Contenido de la materia -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -2361,168 +1964,29 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <th>Total de horas</th>
                                 </tr>
                                 <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=68">6007039 - Cuidado al Ser Humano durante el periodo peri-operatorio</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
-                    <li>
-                        <details>
-                            <summary>Bioquímica I</summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Desarrollo disciplinar de la enfermería</summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Sociología de la salud I: sociedad y salud </summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Investigación I: fundamentos de investigación </summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
+                    
 
                 </ul>
             </div>
@@ -2533,8 +1997,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 <ul class="materias">
                     <li>
                         <details>
-                            <summary>materia 1</summary>
-                            <!-- Contenido de la materia 1 -->
+                            <summary>Electiva III</summary>
+                            <!-- Contenido de la materia -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -2544,32 +2008,32 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <th>Total de horas</th>
                                 </tr>
                                 <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=74">Electiva III</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>Español Académico: habilidades comunicativas</summary>
-                            <!-- Español Académico: habilidades comunicativas -->
+                            <summary>Cuidado en la etapa reproductiva y perinatal</summary>
+                            <!-- Cuidado en la etapa reproductiva y perinatal -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -2579,32 +2043,32 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <th>Total de horas</th>
                                 </tr>
                                 <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=73">6007043 - Cuidado en la etapa reproductiva y perinatal</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre"> </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
                     <li>
                         <details>
-                            <summary>English I</summary>
-                            <!-- English I -->
+                            <summary>Cuidado de la salud familiar y comunitaria III</summary>
+                            <!-- Cuidado de la salud familiar y comunitaria III -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -2614,203 +2078,29 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <th>Total de horas</th>
                                 </tr>
                                 <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=72">6007042 - Cuidado de la salud familiar y comunitaria III</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
+
                             </p>
                             <div class="profe">
                                 <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
+                                <p class="profeNombre">  </p>
                             </div>
                             <div class="contacto">
                                 <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
+                                <p class="profeEmail"> </p>
                             </div>
                         </details>
                     </li>
-                    <li>
-                        <details>
-                            <summary>Biología celular y genética. Teoría y laboratorio</summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Bioquímica I</summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Desarrollo disciplinar de la enfermería</summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Sociología de la salud I: sociedad y salud </summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Investigación I: fundamentos de investigación </summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
+                    
 
                 </ul>
             </div>
@@ -2821,8 +2111,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 <ul class="materias">
                     <li>
                         <details>
-                            <summary>materia 1</summary>
-                            <!-- Contenido de la materia 1 -->
+                            <summary>Práctica profesional comunitaria</summary>
+                            <!-- Contenido de la materia  -->
                             <table>
                                 <tr>
                                     <th>Tipo de curso</th>
@@ -2832,274 +2122,63 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <th>Total de horas</th>
                                 </tr>
                                 <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=76">6007045 - Práctica profesional comunitaria</a></p>
                             <h4 class="tituloResultado">Resultado de aprendizaje</h4>
                             <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Español Académico: habilidades comunicativas</summary>
-                            <!-- Español Académico: habilidades comunicativas -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>English I</summary>
-                            <!-- English I -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Biología celular y genética. Teoría y laboratorio</summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Bioquímica I</summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Desarrollo disciplinar de la enfermería</summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Sociología de la salud I: sociedad y salud </summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>Investigación I: fundamentos de investigación </summary>
-                            <!-- Contenido de la materia 2 -->
-                            <table>
-                                <tr>
-                                    <th>Tipo de curso</th>
-                                    <th>Créditos</th>
-                                    <th>Horas de docencia</th>
-                                    <th>Horas de trabajo independiente</th>
-                                    <th>Total de horas</th>
-                                </tr>
-                                <tr>
-                                    <td>Teórico</td>
-                                    <td>1</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>48</td>
-                                </tr>
-                            </table>
-                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=4">6007001-Antropología y Salud</a></p>
-                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
-                            <p class="resultadoText">
-                                Identifico las formas heterogéneas en que las personas dan sentido al proceso salud-enfermedad-cuidado-atención-muerte a través de contenidos teóricos y de estudio de casos de la antropología, la enfermería y el cuidado cultural en el contexto sociocultural, territorial y cotidiano con el propósito de encontrar puntos de convergencia para pensar la práctica y la producción de conocimientos en enfermería.
-                            </p>
-                            <div class="profe">
-                                <h4 class="profeEncargado">Docente encargado: </h4>
-                                <p class="profeNombre"> Luis Alirio López Giraldo  </p>
-                            </div>
-                            <div class="contacto">
-                                <h4 class="profeContacto">Contacto: </h4>
-                                <p class="profeEmail"> alirio.lopez@udea.edu.co</p>
-                            </div>
-                        </details>
-                    </li>
 
+                            </p>
+                            <div class="profe">
+                                <h4 class="profeEncargado">Docente encargado: </h4>
+                                <p class="profeNombre">   </p>
+                            </div>
+                            <div class="contacto">
+                                <h4 class="profeContacto">Contacto: </h4>
+                                <p class="profeEmail"> </p>
+                            </div>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>Práctica profesional clínica</summary>
+                            <!-- Práctica profesional clínica-->
+                            <table>
+                                <tr>
+                                    <th>Tipo de curso</th>
+                                    <th>Créditos</th>
+                                    <th>Horas de docencia</th>
+                                    <th>Horas de trabajo independiente</th>
+                                    <th>Total de horas</th>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=75">6007044 - Práctica profesional clínica</a></p>
+                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
+                            <p class="resultadoText">
+
+                            </p>
+                            <div class="profe">
+                                <h4 class="profeEncargado">Docente encargado: </h4>
+                                <p class="profeNombre">  </p>
+                            </div>
+                            <div class="contacto">
+                                <h4 class="profeContacto">Contacto: </h4>
+                                <p class="profeEmail"> </p>
+                            </div>
+                        </details>
+                    </li>
                 </ul>
             </div>
 
@@ -3120,6 +2199,15 @@ document.addEventListener("DOMContentLoaded", function() {
                 semunoContent.style.display = 'none';
             } else {
                 semunoContent.style.display = 'block';
+                semdosContent.style.display = 'none';
+                semtresContent.style.display = 'none';
+                semcuatroContent.style.display = 'none';
+                semcincoContent.style.display = 'none';
+                semseisContent.style.display = 'none';
+                semsieteContent.style.display='none';
+                semochoContent.style.display='none';
+                semnueveContent.style.display='none';
+                semdiezContent.style.display='none';
             }
         });
     //  Semestre 2
@@ -3130,7 +2218,16 @@ document.addEventListener("DOMContentLoaded", function() {
             if (semdosContent.style.display === 'block') {
                 semdosContent.style.display = 'none';
             } else {
+                semunoContent.style.display='none';
                 semdosContent.style.display = 'block';
+                semtresContent.style.display = 'none';
+                semcuatroContent.style.display = 'none';
+                semcincoContent.style.display = 'none';
+                semseisContent.style.display = 'none';
+                semsieteContent.style.display='none';
+                semochoContent.style.display='none';
+                semnueveContent.style.display='none';
+                semdiezContent.style.display='none';
             }
         });
 
@@ -3142,7 +2239,16 @@ document.addEventListener("DOMContentLoaded", function() {
         if (semtresContent.style.display === 'block') {
             semtresContent.style.display = 'none';
         } else {
+            semunoContent.style.display='none';
+            semdosContent.style.display='none';
             semtresContent.style.display = 'block';
+            semcuatroContent.style.display = 'none';
+            semcincoContent.style.display = 'none';
+            semseisContent.style.display = 'none';
+            semsieteContent.style.display='none';
+            semochoContent.style.display='none';
+            semnueveContent.style.display='none';
+            semdiezContent.style.display='none';  
         }
     });
 
@@ -3154,7 +2260,17 @@ document.addEventListener("DOMContentLoaded", function() {
         if (semcuatroContent.style.display === 'block') {
             semcuatroContent.style.display = 'none';
         } else {
+            semunoContent.style.display='none';
+            semdosContent.style.display='none';
+            semtresContent.style.display='none';
             semcuatroContent.style.display = 'block';
+            semcincoContent.style.display = 'none';
+            semseisContent.style.display = 'none';
+            semsieteContent.style.display='none';
+            semochoContent.style.display='none';
+            semnueveContent.style.display='none';
+            semdiezContent.style.display='none';
+
         }
     });
 
@@ -3166,7 +2282,17 @@ document.addEventListener("DOMContentLoaded", function() {
         if (semcincoContent.style.display === 'block') {
             semcincoContent.style.display = 'none';
         } else {
+            semunoContent.style.display='none';
+            semdosContent.style.display='none';
+            semtresContent.style.display='none';
+            semcuatroContent.style.display='none';
             semcincoContent.style.display = 'block';
+            semseisContent.style.display = 'none';
+            semsieteContent.style.display='none';
+            semochoContent.style.display='none';
+            semnueveContent.style.display='none';
+            semdiezContent.style.display='none';
+
         }
     });
 
@@ -3178,7 +2304,17 @@ document.addEventListener("DOMContentLoaded", function() {
         if (semseisContent.style.display === 'block') {
             semseisContent.style.display = 'none';
         } else {
+            semunoContent.style.display='none';
+            semdosContent.style.display='none';
+            semtresContent.style.display='none';
+            semcuatroContent.style.display='none';
+            semcincoContent.style.display='none';
             semseisContent.style.display = 'block';
+            semsieteContent.style.display='none';
+            semochoContent.style.display='none';
+            semnueveContent.style.display='none';
+            semdiezContent.style.display='none';
+
         }
     });
 
@@ -3190,7 +2326,16 @@ document.addEventListener("DOMContentLoaded", function() {
         if (semsieteContent.style.display === 'block') {
             semsieteContent.style.display = 'none';
         } else {
+            semunoContent.style.display='none';
+            semdosContent.style.display='none';
+            semtresContent.style.display='none';
+            semcuatroContent.style.display='none';
+            semcincoContent.style.display='none';
+            semseisContent.style.display='none';
             semsieteContent.style.display = 'block';
+            semochoContent.style.display='none';
+            semnueveContent.style.display='none';
+            semdiezContent.style.display='none';
         }
     });
 
@@ -3202,7 +2347,16 @@ document.addEventListener("DOMContentLoaded", function() {
         if (semochoContent.style.display === 'block') {
             semochoContent.style.display = 'none';
         } else {
+            semunoContent.style.display='none';
+            semdosContent.style.display='none';
+            semtresContent.style.display='none';
+            semcuatroContent.style.display='none';
+            semcincoContent.style.display='none';
+            semseisContent.style.display='none';
+            semsieteContent.style.display='none';
             semochoContent.style.display = 'block';
+            semnueveContent.style.display='none';
+            semdiezContent.style.display='none';
         }
     });
 
@@ -3214,7 +2368,16 @@ document.addEventListener("DOMContentLoaded", function() {
         if (semnueveContent.style.display === 'block') {
             semnueveContent.style.display = 'none';
         } else {
+            semunoContent.style.display='none';
+            semdosContent.style.display='none';
+            semtresContent.style.display='none';
+            semcuatroContent.style.display='none';
+            semcincoContent.style.display='none';
+            semseisContent.style.display='none';
+            semsieteContent.style.display='none';
+            semochoContent.style.display='none';
             semnueveContent.style.display = 'block';
+            semdiezContent.style.display='none';
         }
     });
 
@@ -3226,6 +2389,15 @@ document.addEventListener("DOMContentLoaded", function() {
         if (semdiezContent.style.display === 'block') {
             semdiezContent.style.display = 'none';
         } else {
+            semunoContent.style.display='none';
+            semdosContent.style.display='none';
+            semtresContent.style.display='none';
+            semcuatroContent.style.display='none';
+            semcincoContent.style.display='none';
+            semseisContent.style.display='none';
+            semsieteContent.style.display='none';
+            semochoContent.style.display='none';
+            semnueveContent.style.display='none';
             semdiezContent.style.display = 'block';
         }
     });

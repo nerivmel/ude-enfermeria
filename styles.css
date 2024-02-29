@@ -11,8 +11,8 @@ html {
     width: 100%;
 }
 
-h1, p {
-    font-family: 'D-DIN', 'Roboto', 'Montserrat', 'Lato', 'Open Sans', sans-serif;
+h1,h4, p {
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
