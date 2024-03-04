@@ -178,6 +178,7 @@ p {
     display: flex;
     margin-top: 20px;
 }
+.extensionImg,
 .formacionImg {
     text-align: center; 
 }
@@ -211,16 +212,23 @@ p {
     background-color: #0e6334;
 }
 
+.diplomadosImg,
+.certificacionesImg,
+.cursos2Img,
+.seminarios2Img,
+.proyectosImg,
 .seminariosImg {
-    display: flex; /* Para organizar las imágenes horizontalmente */
-    justify-content: center; /* Para centrar las imágenes horizontalmente */
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
     
 }
 
 .seminariosImg img {
-    width: 200px; /* Tamaño deseado para las imágenes */
-    height: auto; /* Mantener la proporción original */
-    margin: 10px; /* Espacio entre las imágenes */
+    width: 200px; 
+    height: auto; 
+    margin: 10px; 
    
 }
 
@@ -229,7 +237,11 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 20px; 
+    
+}
+.posgrado-imgs{
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .posgradoImg img {
@@ -237,18 +249,42 @@ p {
     height: auto; 
     max-width: 200px; 
 }
-
+.acordeon-diplomado,
+.acordeon-certificaciones,
+.acordeon-cursos2,
+.acordeon-seminarios2,
+.acordeon-proyectos,
 .acordeon-seminario,
 .acordeon-cursos{
-    
-    background-color: rgb(245, 243, 243);
+    display: block !important; 
+    margin-bottom: 10px !important;
+    background-color: transparent;
 }
+.acordeon-diplomado img,
+.acordeon-certificaciones img,
+.acordeon-cursos2 img,
+.acordeon-seminarios2 img,
+.acordeon-proyectos img,
+.acordeon-seminario img,
+.acordeon-cursos img {
+    width: 110% !important; 
+    height: auto !important; 
+  }
+  
+
+.acordeon-certificaciones:hover,
+.acordeon-cursos2:hover,
+.acordeon-seminarios2:hover,
+.acordeon-proyectos:hover,
+.acordeon-diplomado:hover,
 .acordeon-cursos:hover,
 .acordeon-seminario:hover{
     transform: scale(0.95); 
-    background-color: rgb(245, 243, 243);
+    background-color: transparent;
 }
 
+.modaldiplomado,
+.modalcert,
 .modals,
 .modalc{
     display: none;
@@ -290,24 +326,41 @@ p {
     justify-content: center;
     align-items: center;
 }
-
+.posgradoImg a,
 .pregradoImg a {
-    margin-left: -20px;/* Ajusta el espacio entre los enlaces */
+    margin-left: -20px;
     margin-right: -20px;
 }
 
+.posgradoImg img{
+    width: 100%; 
+    height: auto; 
+    max-width: 210px;
+    margin-bottom: 1px;
+    margin-left: 30px;
+}
 .pregradoImg img {
     width: 80%; 
     height: auto; 
     max-width: 210px;
-    margin-bottom: 1px; /* Si deseas espacio entre cada imagen y el siguiente */
+    margin-bottom: 1px; 
 }
 
+.extensionImg img{
+    width: 60%; 
+    height: auto; 
+    max-width: 210px;
+    margin-bottom: 1px;
+}
+
+.extension-imgs,
+.posgrado-imgs,
 .pregrado-imgs {
     background-color: transparent;
     cursor: pointer;
 }
-
+.extension-imgs:hover,
+.posgrado-imgs:hover,
 .pregrado-imgs:hover {
     background-color: transparent;
     transform: scale(0.95);
@@ -327,8 +380,8 @@ th {
     background-color: beige;
 }
 summary {
-    list-style-type: disc; /* Elimina los puntos de lista */
-    cursor: pointer; /* Cambia el cursor al señalar */
+    list-style-type: disc; 
+    cursor: pointer; 
     color: #0e6334;
     font-size: 18px;
     margin-bottom: 8px;
@@ -338,17 +391,17 @@ summary {
 
 .materias{
     display: grid;
-    grid-template-columns: 1fr; /* Una sola columna */
-    gap: 10px; /* Espacio entre elementos */
-    list-style-type: none; /* Eliminar estilos de lista predeterminados */
-    padding: 0; /* Eliminar relleno predeterminado */
-    text-align: left; /* Alinea el texto a la izquierda */
+    grid-template-columns: 1fr;
+    gap: 10px; 
+    list-style-type: none; 
+    padding: 0; 
+    text-align: left; 
 }
 
 .linksito {
-    color: green; /* Color verde para el texto del enlace */
-    text-decoration: none; /* Elimina la decoración de subrayado predeterminada */
-    border-bottom: 1px solid green; /* Agrega una línea verde debajo del enlace */
+    color: green; 
+    text-decoration: none; 
+    border-bottom: 1px solid green; 
     background-color: transparent;
 }
 
@@ -356,29 +409,29 @@ summary {
     background-color: transparent;
 }
 .tituloResultado {
-    font-weight: bold; /* Texto en negrita */
-    text-align: left; /* Alineado a la izquierda */
+    font-weight: bold; 
+    text-align: left; 
 }
 
 .resultadoText {
-    color: black; /* Color de texto negro */
+    color: black; 
 }
 
 .profe {
-    display: flex; /* Para alinear los elementos horizontalmente */
-    align-items: center; /* Centra verticalmente los elementos */
+    display: flex; 
+    align-items: center; 
 }
 .contacto{
-    display: flex; /* Para alinear los elementos horizontalmente */
-    align-items: center; /* Centra verticalmente los elementos */
+    display: flex; 
+    align-items: center; 
 }
 
 .profeEncargado {
-    font-weight: bold; /* Texto en negrita */
+    font-weight: bold; 
 }
 
 .profeContacto {
-    font-weight: bold; /* Texto en negrita */
+    font-weight: bold; 
 }
 .profeNombre{
     color: #000;
@@ -386,8 +439,8 @@ summary {
 }
 
 .profeEmail {
-    color: rgb(6, 115, 108); /* Color de texto azul */
-    text-decoration: underline; /* Subrayado */
+    color: rgb(6, 115, 108); 
+    text-decoration: underline; 
     margin-left: 4px;
 }
 

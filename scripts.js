@@ -222,7 +222,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <a href="#" class="pregrado-imgs"><img src="./imagenes/campus_de_enfermeria_03_pregrado_s8.png" alt="semestre 8"></a>
                 <a href="#" class="pregrado-imgs"><img src="./imagenes/campus_de_enfermeria_03_pregrado_s9.png" alt="semestre 9"></a>
                 <a href="#" class="pregrado-imgs"><img src="./imagenes/campus_de_enfermeria_03_pregrado_s10.png" alt="semestre 10"></a>
-
+                <a href="#" class="pregrado-imgs"><img src="./imagenes/campus_de_enfermeria_03_pregrado_electivas.png" alt="electivas"></a>
             </div>
 
 
@@ -2182,6 +2182,49 @@ document.addEventListener("DOMContentLoaded", function() {
                 </ul>
             </div>
 
+            <!-- ELECTIVAS -->
+            <div id="electivasContent" style="display: none;">
+                <h2 class="tituloSemestre1">Electivas</h2>
+                <ul class="materias">
+                    <li>
+                        <details>
+                            <summary>La sexualidad en la vida humana</summary>
+                            <!-- Contenido de la materia  -->
+                            <table>
+                                <tr>
+                                    <th>Tipo de curso</th>
+                                    <th>Créditos</th>
+                                    <th>Horas de docencia</th>
+                                    <th>Horas de trabajo independiente</th>
+                                    <th>Total de horas</th>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                            <a class="linksito", href="https://campus.enfermeriaudea.co/course/view.php?id=77">La sexualidad en la vida Humana</a></p>
+                            <h4 class="tituloResultado">Resultado de aprendizaje</h4>
+                            <p class="resultadoText">
+
+                            </p>
+                            <div class="profe">
+                                <h4 class="profeEncargado">Docente encargado: </h4>
+                                <p class="profeNombre">   </p>
+                            </div>
+                            <div class="contacto">
+                                <h4 class="profeContacto">Contacto: </h4>
+                                <p class="profeEmail"> </p>
+                            </div>
+                        </details>
+                    </li>
+                
+                </ul>
+            </div>
+
             
 
 
@@ -2208,6 +2251,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 semochoContent.style.display='none';
                 semnueveContent.style.display='none';
                 semdiezContent.style.display='none';
+                electivasContent.style.display = 'none'
             }
         });
     //  Semestre 2
@@ -2228,6 +2272,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 semochoContent.style.display='none';
                 semnueveContent.style.display='none';
                 semdiezContent.style.display='none';
+                electivasContent.style.display = 'none'
             }
         });
 
@@ -2248,7 +2293,8 @@ document.addEventListener("DOMContentLoaded", function() {
             semsieteContent.style.display='none';
             semochoContent.style.display='none';
             semnueveContent.style.display='none';
-            semdiezContent.style.display='none';  
+            semdiezContent.style.display='none'; 
+            electivasContent.style.display = 'none' 
         }
     });
 
@@ -2270,6 +2316,7 @@ document.addEventListener("DOMContentLoaded", function() {
             semochoContent.style.display='none';
             semnueveContent.style.display='none';
             semdiezContent.style.display='none';
+            electivasContent.style.display = 'none'
 
         }
     });
@@ -2292,6 +2339,7 @@ document.addEventListener("DOMContentLoaded", function() {
             semochoContent.style.display='none';
             semnueveContent.style.display='none';
             semdiezContent.style.display='none';
+            electivasContent.style.display = 'none'
 
         }
     });
@@ -2314,6 +2362,7 @@ document.addEventListener("DOMContentLoaded", function() {
             semochoContent.style.display='none';
             semnueveContent.style.display='none';
             semdiezContent.style.display='none';
+            electivasContent.style.display = 'none'
 
         }
     });
@@ -2336,6 +2385,7 @@ document.addEventListener("DOMContentLoaded", function() {
             semochoContent.style.display='none';
             semnueveContent.style.display='none';
             semdiezContent.style.display='none';
+            electivasContent.style.display = 'none'
         }
     });
 
@@ -2357,6 +2407,7 @@ document.addEventListener("DOMContentLoaded", function() {
             semochoContent.style.display = 'block';
             semnueveContent.style.display='none';
             semdiezContent.style.display='none';
+            electivasContent.style.display = 'none'
         }
     });
 
@@ -2378,6 +2429,7 @@ document.addEventListener("DOMContentLoaded", function() {
             semochoContent.style.display='none';
             semnueveContent.style.display = 'block';
             semdiezContent.style.display='none';
+            electivasContent.style.display = 'none'
         }
     });
 
@@ -2399,14 +2451,33 @@ document.addEventListener("DOMContentLoaded", function() {
             semochoContent.style.display='none';
             semnueveContent.style.display='none';
             semdiezContent.style.display = 'block';
+            electivasContent.style.display = 'none'
+        }
+    });
+    var electivasContent = document.getElementById('electivasContent');
+    var electivasLink = contenidoACargar.querySelector('.pregrado-imgs:nth-child(11)');
+    electivasLink.addEventListener('click', function(event) {
+        event.preventDefault();
+        if (electivasContent.style.display === 'block') {
+            electivasContent.style.display = 'none';
+        } else {
+            semunoContent.style.display='none';
+            semdosContent.style.display='none';
+            semtresContent.style.display='none';
+            semcuatroContent.style.display='none';
+            semcincoContent.style.display='none';
+            semseisContent.style.display='none';
+            semsieteContent.style.display='none';
+            semochoContent.style.display='none';
+            semnueveContent.style.display='none';
+            semdiezContent.style.display = 'none';
+            electivasContent.style.display='block';
         }
     });
 
 
     });
     
-   
-
 
     //________________________________POSGRADO___________________________________________________________________
     var posgradoLink = document.getElementById("posgrados-link");
@@ -2427,21 +2498,142 @@ document.addEventListener("DOMContentLoaded", function() {
                 a material y actividades de formación desde cualquier lugar con conexión a internet. </p>
             </div>
             <div class="posgradoImg">
-                <img src="./imagenes/campus_de_enfermeria_04_tarejta_01.png" alt="" class="">
-                <img src="./imagenes/campus_de_enfermeria_04_tarejta_02.png" alt="" class="">
-                <img src="./imagenes/campus_de_enfermeria_04_tarejta_03.png" alt="" class="">
-                <img src="./imagenes/campus_de_enfermeria_04_tarejta_04.png" alt="" class="">
-                <img src="./imagenes/campus_de_enfermeria_04_tarejta_05.png" alt="" class="">
-                <img src="./imagenes/campus_de_enfermeria_04_tarejta_06.png" alt="" class="">
+                <a href="#" class="posgrado-imgs"><img src="./imagenes/campus_de_enfermeria_04_tarejta_01.png" alt="posgrado 1"></a>
+                <a href="#" class="posgrado-imgs"><img src="./imagenes/campus_de_enfermeria_04_tarejta_02.png" alt="posgrado 2"></a>
+                <a href="#" class="posgrado-imgs"><img src="./imagenes/campus_de_enfermeria_04_tarejta_03.png" alt="posgrado 3"></a>
+                <a href="#" class="posgrado-imgs"><img src="./imagenes/campus_de_enfermeria_04_tarejta_04.png" alt="posgrado 4"></a>
+                <a href="#" class="posgrado-imgs"><img src="./imagenes/campus_de_enfermeria_04_tarejta_05.png" alt="posgrado 5"></a>
+                <a href="#" class="posgrado-imgs"><img src="./imagenes/campus_de_enfermeria_04_tarejta_06.png" alt="posgrado 6"></a>
+
             </div>
 
-            
-            
+            <div id="pos1Content" style="display: none;">
+                <h2 class="tituloSemestre1">Doctorado en Enfermería</h2>
+                
+            </div> 
+
+            <div id="pos2Content" style="display: none;">
+                <h2 class="tituloSemestre1">Maestría en Enfermería</h2>
+                
+            </div>
+            <div id="pos3Content" style="display: none;">
+                <h2 class="tituloSemestre1">Maestría en Salud Colectiva</h2>
+                
+            </div>
+            <div id="pos4Content" style="display: none;">
+                <h2 class="tituloSemestre1">Especialización en Enfermería en Cuidado al Adulto en Estado Crítico de Salud</h2>
+                
+            </div>
+            <div id="pos5Content" style="display: none;">
+                <h2 class="tituloSemestre1">Especialización en Enfermería en Cuidado al Niño en Estado Crítico de Salud</h2>
+                
+            </div>
+            <div id="pos6Content" style="display: none;">
+                <h2 class="tituloSemestre1">Especialización en Enfermería Oncológica</h2>
+                
+            </div>
+
             <div class="pie">
                 <img class="pieCurva" src="./imagenes/campus_de_enfermeria_pata_fondo.png" alt="">
                 <img class="pieLogo" src="./imagenes/campus_de_enfermeria_pata_logo.png" alt="">
             </div>
-        `
+        `;
+        //POSTGRADO1
+        var pos1Content = document.getElementById('pos1Content');
+        var pos1Link = contenidoACargar.querySelector('.posgrado-imgs:first-child');
+        pos1Link.addEventListener('click', function(event) {
+                event.preventDefault();
+                if (pos1Content.style.display === 'block') {
+                    pos1Content.style.display = 'none';
+                } else {
+                    pos1Content.style.display = 'block';
+                    pos2Content.style.display = 'none';
+                    pos3Content.style.display = 'none';
+                    pos4Content.style.display = 'none'; 
+                    pos5Content.style.display = 'none';
+                    pos6Content.style.display = 'none';      
+            }
+        });
+        //POSTGRADO2
+        var pos2Content = document.getElementById('pos2Content');
+        var pos2Link = contenidoACargar.querySelector('.posgrado-imgs:nth-child(2)');
+        pos2Link.addEventListener('click', function(event) {
+                event.preventDefault();
+                if (pos2Content.style.display === 'block') {
+                    pos2Content.style.display = 'none';
+                } else {
+                    pos1Content.style.display = 'none';
+                    pos2Content.style.display = 'block';  
+                    pos3Content.style.display = 'none';
+                    pos4Content.style.display = 'none'; 
+                    pos5Content.style.display = 'none';
+                    pos6Content.style.display = 'none';      
+            }
+        });
+        //POSTGRADO3
+        var pos3Content = document.getElementById('pos3Content');
+        var pos3Link = contenidoACargar.querySelector('.posgrado-imgs:nth-child(3)');
+        pos3Link.addEventListener('click', function(event) {
+                event.preventDefault();
+                if (pos3Content.style.display === 'block') {
+                    pos3Content.style.display = 'none';
+                } else {
+                    pos1Content.style.display = 'none';
+                    pos2Content.style.display = 'none';
+                    pos3Content.style.display = 'block'; 
+                    pos4Content.style.display = 'none';
+                    pos5Content.style.display = 'none';
+                    pos6Content.style.display = 'none';      
+            }
+        });
+        //POSTGRADO4
+        var pos4Content = document.getElementById('pos4Content');
+        var pos4Link = contenidoACargar.querySelector('.posgrado-imgs:nth-child(4)');
+        pos4Link.addEventListener('click', function(event) {
+                event.preventDefault();
+                if (pos4Content.style.display === 'block') {
+                    pos4Content.style.display = 'none';
+                } else {
+                    pos1Content.style.display = 'none';
+                    pos2Content.style.display = 'none';
+                    pos3Content.style.display = 'none';
+                    pos4Content.style.display = 'block'; 
+                    pos5Content.style.display = 'none';
+                    pos6Content.style.display = 'none'     
+            }
+        });
+        //POSTGRADO5
+        var pos5Content = document.getElementById('pos5Content');
+        var pos5Link = contenidoACargar.querySelector('.posgrado-imgs:nth-child(5)');
+        pos5Link.addEventListener('click', function(event) {
+                event.preventDefault();
+                if (pos5Content.style.display === 'block') {
+                    pos5Content.style.display = 'none';
+                } else {
+                    pos1Content.style.display = 'none';
+                    pos2Content.style.display = 'none';
+                    pos3Content.style.display = 'none';
+                    pos4Content.style.display = 'none';
+                    pos5Content.style.display = 'block';
+                    pos6Content.style.display = 'none';       
+            }
+        });
+        //POSTGRADO6
+        var pos6Content = document.getElementById('pos6Content');
+        var pos6Link = contenidoACargar.querySelector('.posgrado-imgs:nth-child(6)');
+        pos6Link.addEventListener('click', function(event) {
+                event.preventDefault();
+                if (pos6Content.style.display === 'block') {
+                    pos6Content.style.display = 'none';
+                } else {
+                    pos1Content.style.display = 'none';
+                    pos2Content.style.display = 'none';
+                    pos3Content.style.display = 'none';
+                    pos4Content.style.display = 'none';
+                    pos5Content.style.display = 'none';
+                    pos6Content.style.display = 'block';       
+            }
+        });
     })
     //_________________________________EXTENCION_________________________________________________________________
     var extencionLink = document.getElementById("extencion-link");
@@ -2458,23 +2650,213 @@ document.addEventListener("DOMContentLoaded", function() {
             En la oferta académica se encuentran programas virtuales dirigidos o autogestionables, como diplomados, certificaciones en convenios, cursos de actualización, seminarios y proyectos, que permiten a los estudiantes adquirir conocimientos y habilidades en diferentes áreas de estudio.
              </p>
         </div>
-        <div class="formacionImg">
-            <img src="./imagenes/campus_de_enfermeria_05_btn_01.png" alt="" class="">
-            <img src="./imagenes/campus_de_enfermeria_05_btn_02.png" alt="" class="">
-            <img src="./imagenes/campus_de_enfermeria_05_btn_03.png" alt="" class="">
-            <img src="./imagenes/campus_de_enfermeria_05_btn_04.png" alt="" class="">
-            <img src="./imagenes/campus_de_enfermeria_05_btn_05.png" alt="" class="">
-            <img src="./imagenes/campus_de_enfermeria_05_btn_06.png" alt="" class="">
-        </div>
+        <div class="extensionImg">
+            <a href="#" class="extension-imgs"><img src="./imagenes/campus_de_enfermeria_05_btn_01.png" alt="extension 1"></a>
+            <a href="#" class="extension-imgs"><img src="./imagenes/campus_de_enfermeria_05_btn_02.png" alt="extension 2"></a>
+            <a href="#" class="extension-imgs"><img src="./imagenes/campus_de_enfermeria_05_btn_03.png" alt="extension 3"></a>
+            <a href="#" class="extension-imgs"><img src="./imagenes/campus_de_enfermeria_05_btn_04.png" alt="extension 4"></a>
+            <a href="#" class="extension-imgs"><img src="./imagenes/campus_de_enfermeria_05_btn_05.png" alt="extension 5"></a>
+            
+            <!-- Contenido de diplomado -->
+            <div id="diplomadoContent" style="display: none;">
+                <h2 class="tituloSeminario">Diplomados</h2>
+                <div class="diplomadosImg">
+                  <a href="#" class="acordeon-diplomado"><img src="./imagenes/campus_de_enfermeria_04_diplomado_01.png" alt="diplomado 1"></a>
+                  <a href="#" class="acordeon-diplomado"><img src="./imagenes/campus_de_enfermeria_04_diplomado_02.png" alt="diplomado 2"></a>
+                  <a href="#" class="acordeon-diplomado"><img src="./imagenes/campus_de_enfermeria_04_diplomado_03.png" alt="diplomado 3"></a>
+                  <a href="#" class="acordeon-diplomado"><img src="./imagenes/campus_de_enfermeria_04_diplomado_04.png" alt="diplomado 4"></a>
+                </div>
+            </div>
+
+            <!-- Contenido de certificaciones -->
+            <div id="certificacionesContent" style="display: none;">
+                <h2 class="tituloSeminario">Certificaciones</h2>
+                <div class="certificacionesImg">
+                  <a href="#" class="acordeon-certificaciones"><img src="./imagenes/campus_de_enfermeria_04_certificaciones_01.png" alt="certificaciones 1"></a>
+                  <a href="#" class="acordeon-certificaciones"><img src="./imagenes/campus_de_enfermeria_04_certificaciones_02.png" alt="certificaciones 2"></a>
+                  <a href="#" class="acordeon-certificaciones"><img src="./imagenes/campus_de_enfermeria_04_certificaciones_03.png" alt="certificaciones 3"></a>
+                </div>
+            </div>
         
+            <!-- Contenido de cursos -->
+            <div id="cursos2Content" style="display: none;">
+                <h2 class="tituloSeminario">Cursos</h2>
+                <div class="cursos2Img">
+                  <a href="#" class="acordeon-cursos2"><img src="./imagenes/campus_de_enfermeria_04_cursos_01.png" alt="curso 1"></a>
+                  <a href="#" class="acordeon-cursos2"><img src="./imagenes/campus_de_enfermeria_04_cursos_02.png" alt="curso 2"></a>
+                  <a href="#" class="acordeon-cursos2"><img src="./imagenes/campus_de_enfermeria_04_cursos_03.png" alt="curso 3"></a>
+                  <a href="#" class="acordeon-cursos2"><img src="./imagenes/campus_de_enfermeria_04_cursos_04.png" alt="curso 4"></a>
+                  <a href="#" class="acordeon-cursos2"><img src="./imagenes/campus_de_enfermeria_04_cursos_05.png" alt="curso 5"></a>
+
+                </div>
+            </div>
+
+            <!-- Contenido de seminarios -->
+            <div id="seminarios2Content" style="display: none;">
+                <h2 class="tituloSeminario">Seminarios</h2>
+                <div class="seminarios2Img">
+                  <a href="#" class="acordeon-seminarios2"><img src="./imagenes/campus_de_enfermeria_04_seminario_01.png" alt="seminario 1"></a>
+                  <a href="#" class="acordeon-seminarios2"><img src="./imagenes/campus_de_enfermeria_04_seminario_02.png" alt="seminario 1"></a>
+                  <a href="#" class="acordeon-seminarios2"><img src="./imagenes/campus_de_enfermeria_04_seminario_03.png" alt="seminario 1"></a>
+                </div>
+            </div>
+
+            <!-- Contenido de proyectos -->
+            <div id="proyectosContent" style="display: none;">
+                <h2 class="tituloSeminario">Proyectos</h2>
+                <div class="proyectosImg">
+                  <a href="#" class="acordeon-proyectos"><img src="./imagenes/campus_de_enfermeria_04_proyecto_01.png" alt="proyecto 1"></a>
+                  <a href="#" class="acordeon-proyectos"><img src="./imagenes/campus_de_enfermeria_04_proyecto_01.png" alt="proyecto 2"></a>
+                  <a href="#" class="acordeon-proyectos"><img src="./imagenes/campus_de_enfermeria_04_proyecto_01.png" alt="proyecto 3"></a>
+                  </div>
+            </div>
+
+        </div>
+        <div id="modaldiplomado" class="modaldiplomado">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div id="diplomadoModalContent" class="diplomado-content">
+                        <!-- Contenido del diplomado -->
+                    </div>
+                </div>
+        </div>
+        <div id="modalcert" class="modalcert">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div id="certModalContent" class="cert-content">
+                        <!-- Contenido del diplomado -->
+                    </div>
+                </div>
+        </div>
+       
         
         <div class="pie">
             <img class="pieCurva" src="./imagenes/campus_de_enfermeria_pata_fondo.png" alt="">
             <img class="pieLogo" src="./imagenes/campus_de_enfermeria_pata_logo.png" alt="">
         </div>
         `
-    })
+        //  Diplomados
+        var diplomadoContent = document.getElementById('diplomadoContent');
+        var diplomadoLink = contenidoACargar.querySelector('.extension-imgs:first-child');
+        diplomadoLink.addEventListener('click', function(event) {
+            event.preventDefault();
+            if (diplomadoContent.style.display === 'block') {
+                diplomadoContent.style.display = 'none';
+            } else {
+                diplomadoContent.style.display = 'block';
+                certificacionesContent.style.display = 'none';
+                seminarios2Content.style.display = 'none';
+                cursos2Content.style.display = 'none';
+                proyectosContent.style.display = 'none';
+            }
+        });
+        //  Certificaciones
+        var certificacionesContent = document.getElementById('certificacionesContent');
+        var certificacionesLink = contenidoACargar.querySelector('.extension-imgs:nth-child(2)');
+        certificacionesLink.addEventListener('click', function(event) {
+            event.preventDefault();
+            if (certificacionesContent.style.display === 'block') {
+                certificacionesContent.style.display = 'none';
+            } else {
+                certificacionesContent.style.display = 'block';
+                diplomadoContent.style.display = 'none';
+                seminarios2Content.style.display = 'none';
+                cursos2Content.style.display = 'none';
+                proyectosContent.style.display = 'none';  
+            }
+        });
+        //  Cursos
+        var cursos2Content = document.getElementById('cursos2Content');
+        var cursos2Link = contenidoACargar.querySelector('.extension-imgs:nth-child(3)');
+        cursos2Link.addEventListener('click', function(event) {
+            event.preventDefault();
+            if (cursos2Content.style.display === 'block') {
+                cursos2Content.style.display = 'none';
+            } else {
+                cursos2Content.style.display = 'block';
+                seminarios2Content.style.display = 'none';
+                certificacionesContent.style.display = 'none';
+                diplomadoContent.style.display = 'none';
+                proyectosContent.style.display = 'none';
+            }
+        });
+         //  Seminarios
+        var seminarios2Content = document.getElementById('seminarios2Content');
+        var seminarios2Link = contenidoACargar.querySelector('.extension-imgs:nth-child(4)');
+        seminarios2Link.addEventListener('click', function(event) {
+            event.preventDefault();
+            if (seminarios2Content.style.display === 'block') {
+                seminarios2Content.style.display = 'none';
+            } else {
+                seminarios2Content.style.display = 'block';
+                certificacionesContent.style.display = 'none';
+                cursos2Content.style.display = 'none';
+                diplomadoContent.style.display = 'none';
+                proyectosContent.style.display = 'none';   
+            }
+        });
+        //  Proyectos
+        var proyectosContent = document.getElementById('proyectosContent');
+        var proyectosLink = contenidoACargar.querySelector('.extension-imgs:nth-child(5)');
+        proyectosLink.addEventListener('click', function(event) {
+            event.preventDefault();
+            if (proyectosContent.style.display === 'block') {
+                proyectosContent.style.display = 'none';
+            } else {
+                proyectosContent.style.display = 'block';
+                certificacionesContent.style.display = 'none';
+                cursos2Content.style.display = 'none';
+                diplomadoContent.style.display = 'none';
+                seminarios2Content.style.display = 'none';
+            }
+        });
+        //modal diplomado
+        var diplomadoModalLink = contenidoACargar.querySelectorAll('.acordeon-diplomado');
+        var modaldiplomado = document.getElementById("modaldiplomado");
+        var diplomadoModalContent = document.getElementById("diplomadoModalContent");
+        diplomadoModalLink.forEach(function(link) {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+                // Agregar aquí el contenido del curso correspondiente
+                var diplomadoAlt = this.querySelector('img').alt;
+                diplomadoModalContent.innerHTML = "<h2>" + diplomadoAlt + "</h2><p>Descripción del diplomado " + diplomadoAlt + "</p>"+ "</h2><p>Duración " + "xxxxxxx" + "</p>"+ "</h2><p>Requisitos de inscripción" + "xxxxxxx"+"</p>" +"valor"+" xxxxxx"  + "</p>"+ "</h2><p>Fechas " + "xxxxx"+ "</p>";
+                modaldiplomado.style.display = "block";
+            });
+        });
+        var closeBtn = document.getElementsByClassName("close")[0];
+        closeBtn.addEventListener('click', function() {
+            modaldiplomado.style.display = "none";
+        });
+        window.addEventListener('click', function(event) {
+            if (event.target == modalcurso) {
+                modaldiplomado.style.display = "none";
+            }
+        });
+        //modal certificaciones
+        var certModalLink = contenidoACargar.querySelectorAll('.acordeon-certificaciones');
+        var modalcert = document.getElementById("modalcert");
+        var certModalContent = document.getElementById("certModalContent");
+        certModalLink.forEach(function(link) {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+                // Agregar aquí el contenido del curso correspondiente
+                var certAlt = this.querySelector('img').alt;
+                certModalContent.innerHTML = "<h2>" + certAlt + "</h2><p>Descripción del certificado " + certAlt + "</p>"+ "</h2><p>Duración " + "xxxxxxx" + "</p>"+ "</h2><p>Requisitos de inscripción" + "xxxxxxx"+"</p>" +"valor"+" xxxxxx"  + "</p>"+ "</h2><p>Fechas " + "xxxxx"+ "</p>";
+                modalcert.style.display = "block";
+            });
+        });
+        var closeBtn = document.getElementsByClassName("close")[0];
+        closeBtn.addEventListener('click', function() {
+            modalcert.style.display = "none";
+        });
+        window.addEventListener('click', function(event) {
+            if (event.target == modalcurso) {
+                modalcert.style.display = "none";
+            }
+        });
 
+    })
+    
 
 });
 document.addEventListener("DOMContentLoaded", function() {
